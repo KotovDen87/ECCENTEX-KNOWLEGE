@@ -1,4 +1,4 @@
-  [<img alt="preview1" width="100%" src="https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/0%20Topics/IMG/0.png?raw=true">](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/0%20Start%20page/README.md)
+  [<img alt="preview1" width="100%" src="https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/0%20Topics/IMG/0.png?raw=true">](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/0%20Topics/README.md)
 
 <h2 style="font-weight: bold; color: white">Feedback</h2>
 
