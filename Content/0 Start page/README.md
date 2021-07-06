@@ -1,7 +1,7 @@
 # TOPICS
 #### [1 Start work](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/README.md)
 #### [2 Deploy](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/README.md)
-#### [3 Business Objects](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/README.md)
+#### [3 Business Objects](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/3%20Business%20Objects)
 #### [4 Rules](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/4%20Rules/README.md)
 #### [5 New page](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/5%20New%20page/README.md)
 #### [6 Localization](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/6%20Localization/README.md)
