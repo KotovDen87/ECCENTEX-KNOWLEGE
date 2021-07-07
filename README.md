@@ -6,4 +6,4 @@ If you have suggestions, please **[open an issue](https://github.com/CrappyCodeM
 
 ## Authors
 
-Authored by © [CrappyCodeMaker](https://github.com/CrappyCodeMaker)
+Authored by © _**[CrappyCodeMaker](https://github.com/CrappyCodeMaker)**_
