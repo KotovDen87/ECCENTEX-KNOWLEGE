@@ -1,6 +1,4 @@
-![Eccentex]('./Content/0 Topics/IMG/0.png')
-
-![Eccentex](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/0%20Topics/IMG/0.png?raw=true)
+[![Eccentex](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/0%20Topics/IMG/0.png?raw=true)](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/0%20Topics/README.md)
 
 [<img alt="preview1" width="100%" src="https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/0%20Topics/IMG/0.png?raw=true">](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/0%20Topics/README.md)
 
