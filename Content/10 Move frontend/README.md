@@ -50,7 +50,7 @@
 ![img10](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/10%20Move%20frontend/IMG/10.png?raw=true)
 
 12. Если вы видите следующее, Экспорт/Импорт успешно завершен!
-
+![img11](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/10%20Move%20frontend/IMG/11.png?raw=true)
 
 <br/>
 
