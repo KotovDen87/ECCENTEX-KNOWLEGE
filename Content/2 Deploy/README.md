@@ -1,6 +1,6 @@
 # ДЕПЛОЙ
 
-1. Переходим в **`Студия приложений`** и выбираем нужный SOLUTION
+1. Переходим в **`Студия приложений`** и выбираем нужный **SOLUTION**
 2. В сайдбаре **`Deployment management`** => нажимаем **`Preview`** и ждем
 
 ![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/IMG/1.png?raw=true)

@@ -1,6 +1,6 @@
 # РУЛЫ
 
-1. Переходим в **`Студия приложений`** и выбираем нужный SOLUTION
+1. Переходим в **`Студия приложений`** и выбираем нужный **SOLUTION**
 2. В сайдбаре **`Business Rules`** => **`Rules`** => ищем нужный или создаем свой, нажав **` New Rule`**
 
 ![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/4%20Rules/IMG/1.png?raw=true)

@@ -1,6 +1,6 @@
 # БИЗНЕС ОБЪЕКТЫ
 
-1. Переходим в **`Студия приложений`** и выбираем нужный SOLUTION
+1. Переходим в **`Студия приложений`** и выбираем нужный **SOLUTION**
 2. В сайдбаре **`Data management`** => **`Business Objects`** => ищем нужный или создаем свой, нажав **`New Business Objects`**
 
 ![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/3%20Business%20Objects/IMG/1.png?raw=true)
