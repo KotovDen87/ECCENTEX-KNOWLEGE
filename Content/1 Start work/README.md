@@ -4,8 +4,8 @@
 
 Для работы нам понадобится любая, удобная вам, **IDE** _(Visual Studio OR VS Cod, WebStorm, Sublime Text, Notepad++ и т.д. и т.п.)_. Если вы любите работать в **VS CODE**, вот список экстеншенов которые упростят вашу работу:
 
-| # | EXTENSION                     | PUBLISHER             | DESCRIPTION   | LINK   |
-|---|------------------------------ | --------------------- | ------------- | ------ |
+| **#** | **EXTENSION**             | **PUBLISHER**         | **DESCRIPTION**  | **LINK**   |
+|-------|-------------------------- | --------------------- | ---------------- | ---------- |
 | 1 | **Bracket Pair Colorizer 2**  | CoenraadS             | Позволяет идентифицировать совпадающие скобки по цвету. Пользователь может определить, какие токены должны соответствовать и какие цвета использовать | [link](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) |
 | 2 | **CCM Oracle PL/SQL**         | CrappyCodeMaker       | Мое расширение, которое добавляет полную подсветку синтаксиса Oracle PL / SQL. | [link](https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.ccm-plsql-oracle) |
 | 3 | **CCM Theme**                 | CrappyCodeMaker       | Мое расширение, которое добавляет новые темы для VS CODE. Более контрастные относительно дефолтных, поэтому  удобнее читать код | [link](https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme) |
