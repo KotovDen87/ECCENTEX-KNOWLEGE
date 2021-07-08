@@ -16,6 +16,8 @@
 ![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/12%20How%20to%20find%20rule/IMG/2.png?raw=true)
 
 
+<br/>
+
 Что делать если нам необходимо исправить рул главной формы, на которой у нас располагались все вкладки? Для этого:
 
 1. Переходим в раздел **`External Parties`** => **`External Party Types`**
