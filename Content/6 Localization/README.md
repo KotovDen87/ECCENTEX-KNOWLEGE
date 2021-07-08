@@ -2,16 +2,16 @@
 
 1. Переходим в **`Setup`** солюшена
 
-![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/6%20Localization/IMG/1.png)
+![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/6%20Localization/IMG/1.png?raw=true)
 
 2. В сайдбаре **`Localization`** => **`Translations`**
 3. Ищем нужный ключ. Например, **Contact person (full name)**
 
-![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/6%20Localization/IMG/2.png)
+![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/6%20Localization/IMG/2.png?raw=true)
 
 4. В комбобоксе **`Language`** выбираем нужный язык локализации. Ранее найденная нами запись станет ссылкой, кликнув по которой откроется поле для ввода значения на выбранном языке
 
-![img3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/6%20Localization/IMG/3.png)
+![img3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/6%20Localization/IMG/3.png?raw=true)
 
 5. Заполняем и жмем **`SAVE`**
 6. После заполнения всех нужных локализаций жмем **`Publish`**
