@@ -3,7 +3,7 @@
 1. Переходим в **`Студия приложений`** и выбираем нужный SOLUTION
 2. В сайдбаре **`Data management`** => **`Business Objects`** => ищем нужный или создаем свой, нажав **`New Business Objects`**
 
-![Preview](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/IMG/1.png?raw=true)
+![Preview](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/3%20Business%20Objects/IMG/1.png?raw=true)
 
 **_NOTE:_**
   * Связь с другой таблицей можно настроить на вкладке **`Relationships`** _(Отношения)_
