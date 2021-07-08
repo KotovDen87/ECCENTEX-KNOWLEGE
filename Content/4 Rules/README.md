@@ -3,16 +3,16 @@
 1. Переходим в **`Студия приложений`** и выбираем нужный SOLUTION
 2. В сайдбаре **`Business Rules`** => **`Rules`** => ищем нужный или создаем свой, нажав **` New Rule`**
 
-![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/4%Rules/IMG/1.png?raw=true)
+![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/4%20Rules/IMG/1.png?raw=true)
 
 3. Заполняем поля и сохраняем
 
-![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/4%Rules/IMG/1.png?raw=true)
+![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/4%20Rules/IMG/2.png?raw=true)
 
-* В Rule Usage обычно проставляем Empty. Ниже описание возможных значений:
+  * В **_`Rule Usage`_** обычно проставляем **Empty**. Ниже описание возможных значений:
 
-  | Rule Usage | Description                   |
-  |------------|------------------------------ |
+  | **Rule Usage** | **Description**                  |
+  |----------------|----------------------------------|
   | 1          | **Bracket Pair Colorizer 2**  |
   | 2          | **CCM Oracle PL/SQL**         |
   | 3          | **CCM Theme**                 |
@@ -21,6 +21,33 @@
   | 6          | **JS _(ES6)_ snippets**       |
   | 7          | **Rainbow CSV**               |
   | 8          | **Prettier** |
+
+  * В **_`Rule Type`_** выбираем нужный нам тип рула. Ниже описание возможных значений:
+
+  | **Rule Usage** | **Description**                   |
+  |----------------|---------------------------------- |
+  | 1          | **Bracket Pair Colorizer 2**  |
+  | 2          | **CCM Oracle PL/SQL**         |
+  | 3          | **CCM Theme**                 |
+  | 4          | **Material Icon Theme**       |
+  | 5          | **GitLens**                   |
+  | 6          | **JS _(ES6)_ snippets**       |
+  | 7          | **Rainbow CSV**               |
+  | 8          | **Prettier** |
+
+  * Чтобы указать, что правило является асинхронным, выберите **`Is Asynchronous`**. Это касается сценария, в котором правило может либо поддерживать соединение открытым при выполнении правила, либо обрабатывать асинхронное выполнение, не дожидаясь ожидания. Во втором сценарии обратный вызов правила выполняется, когда намеченное правило действительно выполняется.
+  * Чтобы указать, что правило кэшируется, выберите **`Is cached`**.
+  * Чтобы указать, что будет использоваться **Eval Body**, установите флажок **`Is Eval Body`**.
+  * Чтобы указать, что правило должно быть публичным, установите флажок **`Is Public`**.
+  * В поле **`Code Body`** вы вводите свой код правила. Используемый код будет зависеть от выбранного типа правила - например, если вы выбрали **SQL** в качестве типа, вам нужно будет ввести код синтаксиса **SQL** или если вы выбрали **CSharp** в качестве типа правила, вы должны ввести код на **C#**.
+
+4. Прописываем переменные во вкладке **`Parameters`**
+
+**_NOTE:_** При клонирование рула или создании нового проверять переменные, т.к. По дефолту всем проставится **_`Type = INPUT`_**
+
+5. После всех правок делаем деплой
+
+**_NOTE:_** Если мы правим код рула, в котором не меняются переменные, как правило в 90% случаев, все будет работать без деплоя!
 
 
 [back to topics](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/0%20Topics/README.md)
