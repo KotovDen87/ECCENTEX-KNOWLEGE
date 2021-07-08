@@ -16,7 +16,15 @@
       * **СПОСОБ 2:** Создаем темповую таблицу и апдейтим колонку в исходной таблице в **NULL**. Удаляем атрибут и создаем новый, с нужным типом данных. Деплоим. Заливаем данные обратно.
 
 ```SQL
-    create table TEST_TMP as (select col_id, column1 from TEST)
+    --Создаем ТМП таблицу
+    create table TEST_TMP as (select col_id, column_1 from ORIGIN_TABLE)
+
+    --Заливаем данные обратно
+    MERGE INTO ORIGIN_TABLE ORIG
+      USING (SELECT tmp.col_id, tmp.column_1 FROM TEST_TMP tmp) MRG
+      ON (ORIG.col_id = MRG.col_id)
+    WHEN MATCHED THEN
+	    UPDATE SET ORIG.column_1 = MRG.column_1
 ```
 
   2. _`ДАННЫХ НЕТ:`_ Удаляем старый атрибут. Создаем новый. Деплоим
