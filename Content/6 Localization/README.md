@@ -1,13 +1,16 @@
 # ЛОКАЛИЗАЦИЯ ИНТЕРФЕЙСА
 
 1. Переходим в **`Setup`** солюшена
+
 ![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/6%20Localization/IMG/1.png)
 
 2. В сайдбаре **`Localization`** => **`Translations`**
 3. Ищем нужный ключ. Например, **Contact person (full name)**
+
 ![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/6%20Localization/IMG/2.png)
 
 4. В комбобоксе **`Language`** выбираем нужный язык локализации. Ранее найденная нами запись станет ссылкой, кликнув по которой откроется поле для ввода значения на выбранном языке
+
 ![img3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/6%20Localization/IMG/3.png)
 
 5. Заполняем и жмем **SAVE**
