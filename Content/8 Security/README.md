@@ -50,8 +50,7 @@
   * Далее в **`Controller`** сделано правило, которое обращается к БД, считывает в каких Бизнес Группах находится юзер и от этого либо скрывает либо показывает соответствующий элемент.
 ```JavaScript
     if (Ext.isEmpty(roles)) {
-      EcxUtils5.Request.executeRule('ROOT_SD_CHECKBUSINESSROLE', null
-          , function (response, options, srd) {
+      EcxUtils5.Request.executeRule('ROOT_SD_CHECKBUSINESSROLE', null , function (response, options, srd) {
               var result = srd.parsedData.ROLES;
               if (result.indexOf('CLL_AGENT', 0) >= 0) vm.set('isAgent', 1);
               if (result.indexOf('CLL_EXTAGENT', 0) >= 0) {
@@ -72,14 +71,15 @@
     v_CaseWorkerId := f_DCM_getCaseWorkerId();
 
         IF (:BusinessRole IS NOT NULL) THEN
-            SELECT COUNT(*)
-                INTO v_result FROM (
-                SELECT br.COL_CODE FROM TBL_CASEWORKERBUSINESSROLE cw_br INNER JOIN TBL_PPL_BUSINESSROLE br ON br.COL_ID = cw_br.COL_TBL_PPL_BUSINESSROLE
+            SELECT COUNT(*) INTO v_result FROM (
+                SELECT br.COL_CODE FROM TBL_CASEWORKERBUSINESSROLE cw_br
+                INNER JOIN TBL_PPL_BUSINESSROLE br ON br.COL_ID = cw_br.COL_TBL_PPL_BUSINESSROLE
                 WHERE cw_br.COL_BR_PPL_CASEWORKER = v_CaseWorkerId AND br.COL_CODE = :BusinessRole
               );
         ELSE
-                SELECT LISTAGG(br.COL_CODE, ', ') WITHIN GROUP (ORDER BY  br.COL_CODE ) INTO :Roles FROM TBL_CASEWORKERBUSINESSROLE cw_br INNER JOIN TBL_PPL_BUSINESSROLE br ON br.COL_ID = cw_br.COL_TBL_PPL_BUSINESSROLE
-                WHERE cw_br.COL_BR_PPL_CASEWORKER = v_CaseWorkerId;
+            SELECT LISTAGG(br.COL_CODE, ', ') WITHIN GROUP (ORDER BY  br.COL_CODE ) INTO :Roles FROM TBL_CASEWORKERBUSINESSROLE cw_br
+            INNER JOIN TBL_PPL_BUSINESSROLE br ON br.COL_ID = cw_br.COL_TBL_PPL_BUSINESSROLE
+            WHERE cw_br.COL_BR_PPL_CASEWORKER = v_CaseWorkerId;
         END IF;
       :Roles := nvl(:Roles,'*');
       :OutputValue := v_result;
