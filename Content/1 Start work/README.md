@@ -18,6 +18,7 @@
 Мой конфиг для VS CODE (но вы можете настроить его как вам удобно): [settings.json](https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/vsc%20settings/settings.json)
 
 **2.** GIT - базовые знания хотя бы. ([Туториал по основам GIT](https://www.youtube.com/watch?v=zZBiln_2FhM))
+
 **3.** Знания JS (ExtJS не особо и JS, но знать JS нужно). ([Туториал по основам JS](https://www.youtube.com/watch?v=Bluxbh9CaQ0&list=PLqKQF2ojwm3llpxoP1rzoz7TE2Fpo4Zhp&index=11))
 
 
