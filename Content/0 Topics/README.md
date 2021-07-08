@@ -12,3 +12,5 @@
 1. [ПЕРЕНОС FrontEnd’а](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/10%20Move%20frontend/README.md)
 1. [ОЧИСТКА UI КЭША](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/11%20Clear%20cache/README.md)
 1. [ПОИСК ФАЙЛА ДЛЯ ПРАВОК](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/12%20How%20to%20find%20rule)
+
+| 1. [ОЧИСТКА UI КЭША](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/11%20Clear%20cache/README.md) | 1. [ПОИСК ФАЙЛА ДЛЯ ПРАВОК](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/12%20How%20to%20find%20rule) |
