@@ -1,3 +1,10 @@
 # ПЕРЕНОС FrontEnd’а
 
-[< Prew topic](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/README.md) | [Next topic >](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/3%20Business%20Objects)
+1. Сохраните и протестируйте свои правки на **DEV** среде
+2. Сохраните и запуште правки на **git** репозиторий
+3. Перейдите на ту среду, куда будут переноситься ваши правки
+4. Найдите нужный рул и внесите соответствующие изменения
+5. Сделайте **[ДЕПЛОЙ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/README.md)**
+
+
+[back to topics](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/0%20Topics/README.md)
