@@ -1,8 +1,8 @@
 # НАЧАЛО РАБОТЫ
 
-1. **IDE и его настройка**
+**1.** IDE и его настройка
 
-Для работы нам понадобится любая, удобная вам, IDE _(Visual Studio OR VS Cod, WebStorm, Sublime Text, Notepad++ и т.д. и т.п.)_. Если вы любите работать в **VS CODE**, вот список экстеншенов которые упростят вашу работу:
+Для работы нам понадобится любая, удобная вам, **IDE** _(Visual Studio OR VS Cod, WebStorm, Sublime Text, Notepad++ и т.д. и т.п.)_. Если вы любите работать в **VS CODE**, вот список экстеншенов которые упростят вашу работу:
 
 | # | EXTENSION                     | PUBLISHER             | DESCRIPTION   | LINK   |
 |---|------------------------------ | --------------------- | ------------- | ------ |
@@ -13,12 +13,12 @@
 | 5 | **GitLens**                   | Eric Amodio           | GitLens расширяет возможности Git, встроенные в VS Code. Он с первого взгляда помогает визуализировать авторство кода с помощью аннотаций, беспрепятственно перемещаться и исследовать репозитории Git, получать ценную информацию с помощью мощных команд сравнения и многое другое | [link](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) |
 | 6 | **JS _(ES6)_ snippets**       | charalampos karypidis | Полезные снипиты для JS ускорят и упростят написание кода | [link](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) |
 | 7 | **Rainbow CSV**               | mechatroner           | Раскрашивает CSV файлы, а также упрощает работу с ними | [link](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) |
-| 8 | **Prettier - Code formatter** | Prettier              | Комментарии излишни 🙄 | [link](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) |
+| 8 | **Prettier** | Prettier              | Комментарии излишни 🙄 | [link](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) |
 
 Мой конфиг для VS CODE (но вы можете настроить его как вам удобно): [settings.json](https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/vsc%20settings/settings.json)
 
-2. **GIT - базовые знания хотя бы.** ([Туториал по основам GIT](https://www.youtube.com/watch?v=zZBiln_2FhM))
-3. **Знания JS (ExtJS не особо и JS, но знать JS нужно).** ([Туториал по основам JS](https://www.youtube.com/watch?v=Bluxbh9CaQ0&list=PLqKQF2ojwm3llpxoP1rzoz7TE2Fpo4Zhp&index=11))
+**2.** GIT - базовые знания хотя бы. ([Туториал по основам GIT](https://www.youtube.com/watch?v=zZBiln_2FhM))
+**3.** Знания JS (ExtJS не особо и JS, но знать JS нужно). ([Туториал по основам JS](https://www.youtube.com/watch?v=Bluxbh9CaQ0&list=PLqKQF2ojwm3llpxoP1rzoz7TE2Fpo4Zhp&index=11))
 
 
 [back to topics](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/0%20Topics/README.md)
