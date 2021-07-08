@@ -1,3 +1,23 @@
 # БИЗНЕС ОБЪЕКТЫ
 
-[< Prew topic](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/README.md) | [Next topic >](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/3%20Business%20Objects)
+1. Переходим в **`Студия приложений`** и выбираем нужный SOLUTION
+2. В сайдбаре **`Data management`** => **`Business Objects`** => ищем нужный или создаем свой, нажав **`New Business Objects`**
+
+![Preview](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/IMG/1.png?raw=true)
+
+**_NOTE:_**
+* Связь с другой таблицей можно настроить на вкладке **`Relationships`** _(Отношения)_
+* Если необходимо изменить тип атрибута, то просто поменять его невозможно. Для изменения типа необходимо понять если какие-либо данные в данном атрибуте (колонка таблицы)
+
+    * _`ДАННЫЕ ЕСТЬ:`_
+          * **СПОСОБ 1:** Создать новый атрибут _(временный)_. Задеплоить изменение. В БД перенести данные из текущей колонки во временную. Удалить старый атрибут и создать новый с тем же названием и новым типом. Задеплоить изменение. Перенести данные в корректный атрибут. Удалить временный. Задеплоить.
+          * **СПОСОБ 2:** Создаем темповую таблицу
+          ```SQL
+            create table TEST_TMP as (select col_id, column1 from TEST)
+          ```
+ и апдейтим колонку в исходной таблице в **NULL**. Удаляем атрибут и создаем новый, с нужным типом данных. Деплоим. Заливаем данные обратно.
+
+    * _`ДАННЫХ НЕТ:`_ Удаляем старый атрибут. Создаем новый. Деплоим
+
+
+[back to topics](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/0%20Topics/README.md)
