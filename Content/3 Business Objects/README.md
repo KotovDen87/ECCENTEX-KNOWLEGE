@@ -11,9 +11,9 @@
 
   1. _`ДАННЫЕ ЕСТЬ:`_
 
-      * **СПОСОБ 1:** Создать новый атрибут _(временный)_. Задеплоить изменение. В БД перенести данные из текущей колонки во временную. Удалить старый атрибут и создать новый с тем же названием и новым типом. Задеплоить изменение. Перенести данные в корректный атрибут. Удалить временный. Задеплоить.
+      * **СПОСОБ 1:** Создать новый атрибут _(временный)_. [Задеплоить](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/README.md) изменение. В БД перенести данные из текущей колонки во временную. Удалить старый атрибут и создать новый с тем же названием и новым типом. [Задеплоить](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/README.md) изменение. Перенести данные в корректный атрибут. Удалить временный. [Задеплоить](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/README.md).
 
-      * **СПОСОБ 2:** Создаем темповую таблицу и апдейтим колонку в исходной таблице в **NULL**. Удаляем атрибут и создаем новый, с нужным типом данных. Деплоим. Заливаем данные обратно.
+      * **СПОСОБ 2:** Создаем темповую таблицу и апдейтим колонку в исходной таблице в **NULL**. Удаляем атрибут и создаем новый, с нужным типом данных. [Деплоим](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/README.md). Заливаем данные обратно.
 
 ```SQL
     --Создаем ТМП таблицу
@@ -27,7 +27,7 @@
 	    UPDATE SET ORIG.column_1 = MRG.column_1
 ```
 
-  2. _`ДАННЫХ НЕТ:`_ Удаляем старый атрибут. Создаем новый. Деплоим
+  2. _`ДАННЫХ НЕТ:`_ Удаляем старый атрибут. Создаем новый. [Деплоим](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/README.md)
 
 
 [back to topics](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/0%20Topics/README.md)
