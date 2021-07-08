@@ -13,11 +13,12 @@
 
 ![img3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/6%20Localization/IMG/3.png)
 
-5. Заполняем и жмем **SAVE**
-6. После заполнения всех нужных локализаций жмем **Publish**
+5. Заполняем и жмем **`SAVE`**
+6. После заполнения всех нужных локализаций жмем **`Publish`**
 
 **_P.S._** _При создании локализации деплой не нужен._
-**_P.S.S._** _Чтобы полю, лейблу и т.п. сделать перевод в JS коде пишем так: **t(`‘SOME_TEXT’`)** . Далее выполняем поиск _(п.3)_ по ключу **SOME_TEXT** и далее по мануалу._
+
+**_P.S.S._** _Чтобы полю, лейблу и т.п. сделать перевод в JS коде пишем: **t(`‘SOME_TEXT’`)** . Далее выполняем поиск _(п.3)_ по ключу **SOME_TEXT** и далее по мануалу._
 
 
 [back to topics](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/0%20Topics/README.md)
