@@ -65,22 +65,22 @@
   * Собственно вот пример бизнес правила. Получаем ИД ЮЗЕРА, смотрим какие у него бизнес правила, и возвращает через запятую список его БР
 ```SQL
     DECLARE
-      v_CaseWorkerId     INTEGER;
-        v_result 		   INTEGER;
+      v_CaseWorkerId  INTEGER;
+        v_result      INTEGER;
     BEGIN
-    v_CaseWorkerId := f_DCM_getCaseWorkerId();
-
-        IF (:BusinessRole IS NOT NULL) THEN
-            SELECT COUNT(*) INTO v_result FROM (
-                SELECT br.COL_CODE FROM TBL_CASEWORKERBUSINESSROLE cw_br
+      v_CaseWorkerId := f_DCM_getCaseWorkerId();
+      IF (:BusinessRole IS NOT NULL) THEN
+          SELECT COUNT(*) INTO v_result FROM (
+              SELECT br.COL_CODE FROM TBL_CASEWORKERBUSINESSROLE cw_br
                 INNER JOIN TBL_PPL_BUSINESSROLE br ON br.COL_ID = cw_br.COL_TBL_PPL_BUSINESSROLE
-                WHERE cw_br.COL_BR_PPL_CASEWORKER = v_CaseWorkerId AND br.COL_CODE = :BusinessRole
-              );
-        ELSE
-            SELECT LISTAGG(br.COL_CODE, ', ') WITHIN GROUP (ORDER BY  br.COL_CODE ) INTO :Roles FROM TBL_CASEWORKERBUSINESSROLE cw_br
+              WHERE cw_br.COL_BR_PPL_CASEWORKER = v_CaseWorkerId AND br.COL_CODE = :BusinessRole
+            );
+      ELSE
+          SELECT LISTAGG(br.COL_CODE, ', ') WITHIN GROUP (ORDER BY  br.COL_CODE ) INTO :Roles
+          FROM TBL_CASEWORKERBUSINESSROLE cw_br
             INNER JOIN TBL_PPL_BUSINESSROLE br ON br.COL_ID = cw_br.COL_TBL_PPL_BUSINESSROLE
-            WHERE cw_br.COL_BR_PPL_CASEWORKER = v_CaseWorkerId;
-        END IF;
+          WHERE cw_br.COL_BR_PPL_CASEWORKER = v_CaseWorkerId;
+      END IF;
       :Roles := nvl(:Roles,'*');
       :OutputValue := v_result;
     END;
