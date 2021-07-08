@@ -72,4 +72,6 @@
 **_NOTE:_** Если мы правим код рула, в котором не меняются переменные, как правило в 90% случаев, все будет работать без [деплоя](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/README.md)!
 
 
+<br/>
+
 [back to topics](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/0%20Topics/README.md)

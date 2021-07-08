@@ -22,4 +22,6 @@
 **_P.S.S._** _Чтобы полю, лейблу и т.п. сделать перевод в JS коде пишем: **t(`‘SOME_TEXT’`)** . Далее выполняем поиск _(п.3)_ по ключу **SOME_TEXT** и далее по мануалу._
 
 
+<br/>
+
 [back to topics](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/0%20Topics/README.md)
