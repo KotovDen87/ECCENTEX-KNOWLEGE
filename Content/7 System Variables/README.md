@@ -1,6 +1,9 @@
 # СИСТЕМНЫЕ ПЕРЕМЕННЫЕ
 
 1. Переходим в **`Setup`** солюшена
+
+![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/6%20Localization/IMG/1.png?raw=true)
+
 2. В сайдбаре **`Solution Preferences`** => **`System Variables`**
 3. В открывшемся окне ищем и правим нужную нам переменную либо создаем новую
 
