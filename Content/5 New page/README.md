@@ -11,16 +11,16 @@
 
 ![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/2.png?raw=true)
 
-* **_Инструкция по заполнению:_**
-    * В **`MENU LABEL`** пишем название в таком формате **_@Resource('Solution:`НАЗВАНИЕ_ЛЭЙБЛА`')@_**
-    * **`PAGE`** - шаблон страницы. Обычно используется **UNTIL_BasePage**
+**_Инструкция по заполнению:_**
+  * В **`MENU LABEL`** пишем название в таком формате **_@Resource('Solution:`НАЗВАНИЕ_ЛЭЙБЛА`')@_**
+  * **`PAGE`** - шаблон страницы. Обычно используется **UNTIL_BasePage**
 
   ![img3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/3.png?raw=true)
 
-    * В параметре **`app`** пишем название созданного в репозитории файла с префиксом **_App_**, но в данном поле пишем его без префикса
-    * В **`usePageConfig`** пишем **1** _(константа)_
-    * В **`group`** пишем **SD**
-    * В **`API Permanent ID`** в инпуте пишем тоже самое что и писали в **`НАЗВАНИЕ_ЛЭЙБЛА`**
+  * В параметре **`app`** пишем название созданного в репозитории файла с префиксом **_App_**, но в данном поле пишем его без префикса
+  * В **`usePageConfig`** пишем **1** _(константа)_
+  * В **`group`** пишем **SD**
+  * В **`API Permanent ID`** в инпуте пишем тоже самое что и писали в **`НАЗВАНИЕ_ЛЭЙБЛА`**
 
 6. На вкладке **`Item ermissions`** заполняем нужные **_Permissions_** и сохраняем.
 7. В сайдбаре **`Localization`** => **`Localization Data`**
