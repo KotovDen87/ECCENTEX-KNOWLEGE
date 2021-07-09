@@ -49,13 +49,18 @@
 
   _Как видно в примере, по дефолту_ **_isEditable_**: `false`
 ```JavaScript
-    Ext.define('SD.view.ExternalParty.Individual.ViewModel', {
+    Ext.define('SD.view.ExternalParty.Individual.Detail.ViewModel', {
         extend: 'Ext.app.ViewModel',
-        alias: 'viewmodel.IndividualViewModel',
-        requires: [ 'SD.model.SDDict', 'SD.model.Individual', 'SD.model.AddressExternalParties', 'SD.model.PartyType' ],
+        alias: 'viewmodel.IndividualDetailViewModel',
+        requires: ['SD.model.SDDict', 'SD.model.Individual', 'SD.model.AddressExternalParties', 'SD.model.PartyType'],
         data: {
-            searchIndividual: null, isEditable: false, isExtAgent: false,
+            searchIndividual: null, isEditable: false,
             current: {Individual: null, editMode: 'Modify'}
+        },
+        formulas: {
+            isHiddenBtn: function(get) {
+                if (get('isAgent')) {return true;} else {return get('isEditable');}
+            }
         },
 ```
   * Далее в **`Controller`** сделано правило, которое обращается к БД, считывает в каких Бизнес Группах находится юзер и от этого либо скрывает либо показывает соответствующий элемент.
