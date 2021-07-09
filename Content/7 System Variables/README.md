@@ -4,16 +4,14 @@
 
 ![AppStudio](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/IMG/AppStudio.png?raw=true)
 
-2. В сайдбаре **`Solution Preferences`** => **`System Variables`**
-
-**_NOTE:_** _На PROD или QA
-
-![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/7%20System%20Variables/IMG/1.png?raw=true)
-
+2. В сайдбаре **`Solution Preferences`** => **`System Variables`** _(для DEV)_ либо **`Environment Variables`** _(для PROD и QA)_
 
 3. В открывшемся окне ищем и правим нужную нам переменную либо создаем новую
 
 ![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/7%20System%20Variables/IMG/1.png?raw=true)
+
+
+**_NOTE:_** _Каждая среда имеет свои конкретные настройки. После создания/редактирования на DEV необходимо проделать те же операции на QA и PROD (после успешного тестирования) средах_
 
 4. Созданная переменная в **JavaScript** вызывается следующим образом:
 
