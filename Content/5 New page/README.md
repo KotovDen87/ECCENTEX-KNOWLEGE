@@ -9,7 +9,7 @@
 ![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/1.png?raw=true)
 
 3. В открывшемся окне кликаем нужный ресурс
-4. И в том месте где необходимо добавить линк кликаем правой кнопкой и жмем **`Add Page`**
+4. В том месте где необходимо добавить линк кликаем правой кнопкой и жмем **`Add Page`**
 
 ![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/2.png?raw=true)
 
@@ -17,13 +17,13 @@
 
 ![img3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/3.png?raw=true)
 
-**_Инструкция по заполнению:_**
-  * В **`MENU LABEL`** пишем название в таком формате **_@Resource('Solution:`НАЗВАНИЕ_ЛЭЙБЛА`')@_**
+**_Инструкция по заполнению полей:_**
+  * В **`MENU LABEL`** пишем название в формате: **_@Resource('Solution:`НАЗВАНИЕ_ЛЭЙБЛА`')@_**
   * **`PAGE`** - шаблон страницы. Обычно используется **UNTIL_BasePage**
 
   ![img4](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/4.png?raw=true)
 
-  * В параметре **`app`** пишем название созданного в репозитории файла с префиксом **_App_**, но в данном поле пишем его без префикса
+  * В параметре **`app`** пишем название созданного _(или который создадим в дальнейшем)_ в репозитории файла с префиксом **_App_**, _НО_ в данном поле пишем его без префикса!
   * В **`usePageConfig`** пишем **1** _(константа)_
   * В **`group`** пишем **SD**
   * В **`API Permanent ID`** в инпуте пишем тоже самое что и писали в **`НАЗВАНИЕ_ЛЭЙБЛА`**
@@ -33,8 +33,7 @@
 
 ![img5](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/5.png?raw=true)
 
-7. В сайдбаре **`Localization`** => **`Localization Data`**
-8. Создаем новую переменную:
+7. Далее переходим в сайдбаре **`Localization`** => **`Localization Data`** и создаем новую переменную:
     * `Resource Key` = **НАЗВАНИЕ_ЛЭЙБЛА**
     * Название линки на разных языках _(то что вы напишите в переводах, будет отражено в UI)_
 9. [Деплоим](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/README.md) изменения
@@ -54,7 +53,7 @@
 
 Далее переходим в репозиторий проекта:  _`app`_ => _`SolutionSysFiles`_ => _`SD`_ => _`JS`_
 
-И создаем соответствующий **JS** файл с префиксом _APP_ => **_CLLDaysHoldApp.js_**
+И создаем соответствующий **JS** файл с префиксом _APP_ => **_`CLLDaysHold`App.js_**
 
 В котором указана ссылка на **Panel**, которая рендерит нам страницу
 
