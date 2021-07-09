@@ -1,6 +1,9 @@
 # СОЗДАНИЕ НОВОЙ СТРАНИЦЫ В САЙДБАРЕ
 
 1. Переходим в **`Студия приложений`** и выбираем нужный **SOLUTION**
+
+![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/IMG/AppStudio.png?raw=true)
+
 2. В сайдбаре **`Applications`** => **`User Applications`**
 3. В открывшемся окне кликаем нужный ресурс
 4. И в том месте где необходимо добавить линк кликаем правой кнопкой и жмем **`Add Page`**

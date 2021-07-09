@@ -1,6 +1,9 @@
 # НАСТРОЙКА РАЗРЕШЕНИЙ
 
 1. Переходим в **`Студия приложений`** и выбираем нужный **SOLUTION**
+
+![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/IMG/AppStudio.png?raw=true)
+
 2. В сайдбаре **`Security`** => **`Roles`**
 
 ![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/8%20Security/IMG/1.png?raw=true)
