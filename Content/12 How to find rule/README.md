@@ -2,7 +2,7 @@
 
 1. Переходим в **`Setup`** солюшена
 
-![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/6%20Localization/IMG/1.png?raw=true)
+![SolutionSetup](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/IMG/SolutionSetup.png?raw=true)
 
 2. В сайдбаре **`Forms and Pages`** => **`Detail Pages`** => Кликаем по нужной форме
 

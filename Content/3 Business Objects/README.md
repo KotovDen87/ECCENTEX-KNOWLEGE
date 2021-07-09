@@ -2,7 +2,7 @@
 
 1. Переходим в **`Студия приложений`** и выбираем нужный **SOLUTION**
 
-![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/IMG/AppStudio.png?raw=true)
+![AppStudio](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/IMG/AppStudio.png?raw=true)
 
 2. В сайдбаре **`Data management`** => **`Business Objects`** => ищем нужный или создаем свой, нажав **`New Business Objects`**
 

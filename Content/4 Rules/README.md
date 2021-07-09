@@ -2,7 +2,7 @@
 
 1. Переходим в **`Студия приложений`** и выбираем нужный **SOLUTION**
 
-![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/IMG/AppStudio.png?raw=true)
+![AppStudio](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/IMG/AppStudio.png?raw=true)
 
 2. В сайдбаре **`Business Rules`** => **`Rules`** => ищем нужный или создаем свой, нажав **` New Rule`**
 
