@@ -50,11 +50,11 @@
 
 Как видно на скрине в **MENU LABEL** указали **_@Resource('Solution:`SD_ACTIVITYDAYSHOLD`')@_**
 
-В параметре **`app`** указали **_CLLDaysHold_** и в **`API Permanent ID`** _ROOT_SD_CLL_SD_COLLECTION_`SD_ACTIVITYDAYSHOLD`_
+В параметре **`app`** указали **_CLLDaysHold_** и в **`API Permanent ID`** указали _ROOT_SD_CLL_SD_COLLECTION_`SD_ACTIVITYDAYSHOLD`
 
 Далее переходим в репозиторий проекта:  _`app`_ => _`SolutionSysFiles`_ => _`SD`_ => _`JS`_
 
-И создаем соответствующий JS файл с префиксом _APP_ => **_CLLDaysHoldApp.js_**
+И создаем соответствующий **JS** файл с префиксом _APP_ => **_CLLDaysHoldApp.js_**
 
 В котором указана ссылка на **Panel**, которая рендерит нам страницу
 
