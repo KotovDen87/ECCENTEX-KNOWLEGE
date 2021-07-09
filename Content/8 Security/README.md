@@ -15,11 +15,12 @@
 
 ![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/8%20Security/IMG/2.png?raw=true)
 
-6. Далее переходим в раздел **`Manage Users`** => **`User Management`** => **`Groups`**
+6. После проставления **_Permissions_** делаем [деплой](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/README.md)
+7. Далее переходим в раздел **`Manage Users`** => **`User Management`** => **`Groups`**
 
 ![img3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/8%20Security/IMG/3.png?raw=true)
 
-7. Создаем необходимую группу и определяем роли которые получает эта группа
+8. Создаем необходимую группу и определяем роли которые получает эта группа
     * Проваливаемся в созданную группу => вкладка **`Group Roles`** => выбираем необходимые роли
 
 ![img4](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/8%20Security/IMG/4.png?raw=true)
