@@ -29,6 +29,9 @@
   * В **`API Permanent ID`** в инпуте пишем тоже самое что и писали в **`НАЗВАНИЕ_ЛЭЙБЛА`**
 
 6. На вкладке **`Item Permissions`** и **`Application Permissions`** заполняем нужные **_Permissions_** _(Разрешения)_ и сохраняем.
+
+![img5](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/5.png?raw=true)
+
 7. В сайдбаре **`Localization`** => **`Localization Data`**
 8. Создаем новую переменную:
     * `Resource Key` = **НАЗВАНИЕ_ЛЭЙБЛА**
@@ -42,7 +45,7 @@
 
 Нужно создать создать страницу **_“справочник Hold Days”_**
 
-![img5](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/5.png?raw=true)
+![img6](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/6.png?raw=true)
 
 Как видно на скрине в **MENU LABEL** указали **_@Resource('Solution:`SD_ACTIVITYDAYSHOLD`')@_**
 
@@ -54,7 +57,7 @@
 
 В котором указана ссылка на **Panel**, которая рендерит нам страницу
 
-![img6](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/6.png?raw=true)
+![img7](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/7.png?raw=true)
 
 **_LifeHack:_** _Для теста корректности созданию в этом файле можно указать ссылку на уже созданную и стабильно работающую **Panel**._
 
