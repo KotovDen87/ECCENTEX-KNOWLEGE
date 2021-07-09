@@ -2,9 +2,15 @@
 
 1. Переходим в **`Студия приложений`** и выбираем нужный **SOLUTION**
 
-![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/IMG/AppStudio.png?raw=true)
+![AppStudio](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/IMG/AppStudio.png?raw=true)
 
 2. В сайдбаре **`Solution Preferences`** => **`System Variables`**
+
+**_NOTE:_** _На PROD или QA
+
+![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/7%20System%20Variables/IMG/1.png?raw=true)
+
+
 3. В открывшемся окне ищем и правим нужную нам переменную либо создаем новую
 
 ![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/7%20System%20Variables/IMG/1.png?raw=true)
