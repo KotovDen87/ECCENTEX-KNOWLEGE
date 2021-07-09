@@ -14,10 +14,12 @@
 
 ![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/10%20Move%20frontend/IMG/2.png?raw=true)
 
-4. Переходим на ту среду, куда будем делать перенос => далее в **`System Setup`**
+4. Переходим на ту среду, куда будем делать перенос => далее в **`System Setup Home`**
+
 ![SystemSetupHome](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/IMG/SystemSetupHome.png?raw=true)
 
 5. В сайдбаре **`Solutions`** => Кликаем **`IMPORT`** нужному солюшену
+
 **_NOTE:_** _Во время ЭКСПОРТА никто не должен деплоиться!_
 
 ![img3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/10%20Move%20frontend/IMG/3.png?raw=true)
@@ -42,7 +44,7 @@
 
 ![img7](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/10%20Move%20frontend/IMG/7.png?raw=true)
 
-9. После подтверждения делаем деплой солюшена
+9. После подтверждения делаем [деплой](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/README.md) солюшена
 10. Кроме того, необходимо импортировать конфигурацию DCM. Откройте **DEV** солюшен => **`Export/Import`** => выберите конфигурацию «`DCM Update Export No Dict`» и нажмите **`Export selected`**.
 
 ![img8](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/10%20Move%20frontend/IMG/8.png?raw=true)
