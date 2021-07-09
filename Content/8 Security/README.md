@@ -19,6 +19,9 @@
 ![img3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/8%20Security/IMG/3.png?raw=true)
 
 7. Создаем необходимую группу и определяем роли которые получает эта группа
+    * Проваливаемся в созданную группу => вкладка **`Group Roles`** => выбираем необходимые роли
+
+![img4](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/8%20Security/IMG/4.png?raw=true)
 
 
 <br/>
@@ -35,11 +38,14 @@
 ![img5](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/8%20Security/IMG/5.png?raw=true)
 
 4. Далее в коде ограничиваем доступ к конкретному UI элементу:
-  * Проставляем на Panel атрибут элементу bind:
+  * Проставляем на Panel атрибут элементу, который планируем скрыть:
 ```JavaScript
-    {hidden: '{isExtAgent}'}
+    bind: {hidden: '{isExtAgent}'}
+    // Если BIND уже присутствует, просто ставим запятую и пишем hidden: '{isExtAgent}'
 ```
   * Сам элемент описывается во **`ViewModel`**
+
+  _Как видно в примере, по дефолту_ **_isEditable_**: `false`
 ```JavaScript
     Ext.define('SD.view.ExternalParty.Individual.ViewModel', {
         extend: 'Ext.app.ViewModel',
