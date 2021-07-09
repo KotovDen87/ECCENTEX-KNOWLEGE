@@ -10,7 +10,8 @@
 
 3. Создаем новую роль нажав **`New Role`**
 4. В сайдбаре **`Applications`** => **`User Applications`**
-5. В открывшемся окне кликаем нужный ресурс _(ссылка на страницу)_ и проставляем галочки в разделе **`Item Permissions`** => **Сохраняем**. _(Так мы обозначим какие страницы будут видны данной роле)_
+5. В открывшемся окне кликаем нужный ресурс _(ссылка на страницу)_ => На вкладке **`Item Permissions`** и **`Application Permissions`** заполняем нужные **_Permissions_** _(Разрешения которыми мы обозначим, какие страницы будут видны данной роле)_ .
+      * Для того чтобы проставить разрешения, жмем **`Edit`** => кликаем нужные => жмем **`Save`** _(Так )_
 
 ![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/8%20Security/IMG/2.png?raw=true)
 
@@ -26,16 +27,16 @@
 
 <br/>
 
-Для того чтобы управлять контекстом внутри формы, например: доступ к кнопке, скрытие панелей различных и т.д. и т.п. _(если это необходимо)_, существует понятие **`Бизнес Роль`**. **_(БР)_**
+Для того чтобы управлять контекстом внутри формы, например: доступ к кнопке, скрытие различных панелей и т.д. и т.п. _(если это необходимо)_, существует понятие **`Бизнес Роль`**. **_(БР)_**
 
 1. Для настройки переходим в **`Setup`** солюшена => **`Internal People`** => **`Business Roles`**
 
-![img4](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/8%20Security/IMG/4.png?raw=true)
+![img5](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/8%20Security/IMG/5.png?raw=true)
 
 2. Создаем необходимую БР
 3. Добавляем в нее агентов, путем нажатия кнопки **`Add/Remove Case Workers`**
 
-![img5](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/8%20Security/IMG/5.png?raw=true)
+![img6](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/8%20Security/IMG/6.png?raw=true)
 
 4. Далее в коде ограничиваем доступ к конкретному UI элементу:
   * Проставляем на Panel атрибут элементу, который планируем скрыть:
