@@ -28,7 +28,8 @@
   * В **`group`** пишем **SD**
   * В **`API Permanent ID`** в инпуте пишем тоже самое что и писали в **`НАЗВАНИЕ_ЛЭЙБЛА`**
 
-6. На вкладке **`Item Permissions`** и **`Application Permissions`** заполняем нужные **_Permissions_** _(Разрешения)_ и сохраняем.
+6. На вкладке **`Item Permissions`** и **`Application Permissions`** заполняем нужные **_Permissions_** _(Разрешения)_ .
+      * Для того чтобы проставить разрешения, жмем **`Edit`** => кликаем нужные => жмем **`Save`**
 
 ![img5](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/5.png?raw=true)
 
