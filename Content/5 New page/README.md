@@ -2,30 +2,33 @@
 
 1. Переходим в **`Студия приложений`** и выбираем нужный **SOLUTION**
 
-![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/IMG/AppStudio.png?raw=true)
+![img0](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/IMG/AppStudio.png?raw=true)
 
 2. В сайдбаре **`Applications`** => **`User Applications`**
-3. В открывшемся окне кликаем нужный ресурс
-4. И в том месте где необходимо добавить линк кликаем правой кнопкой и жмем **`Add Page`**
 
 ![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/1.png?raw=true)
 
-5. Заполняем поля и жмем Сохранить
+3. В открывшемся окне кликаем нужный ресурс
+4. И в том месте где необходимо добавить линк кликаем правой кнопкой и жмем **`Add Page`**
 
 ![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/2.png?raw=true)
+
+5. Заполняем поля и жмем Сохранить
+
+![img3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/3.png?raw=true)
 
 **_Инструкция по заполнению:_**
   * В **`MENU LABEL`** пишем название в таком формате **_@Resource('Solution:`НАЗВАНИЕ_ЛЭЙБЛА`')@_**
   * **`PAGE`** - шаблон страницы. Обычно используется **UNTIL_BasePage**
 
-  ![img3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/3.png?raw=true)
+  ![img4](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/4.png?raw=true)
 
   * В параметре **`app`** пишем название созданного в репозитории файла с префиксом **_App_**, но в данном поле пишем его без префикса
   * В **`usePageConfig`** пишем **1** _(константа)_
   * В **`group`** пишем **SD**
   * В **`API Permanent ID`** в инпуте пишем тоже самое что и писали в **`НАЗВАНИЕ_ЛЭЙБЛА`**
 
-6. На вкладке **`Item ermissions`** заполняем нужные **_Permissions_** и сохраняем.
+6. На вкладке **`Item Permissions`** и **`Application Permissions`** заполняем нужные **_Permissions_** _(Разрешения)_ и сохраняем.
 7. В сайдбаре **`Localization`** => **`Localization Data`**
 8. Создаем новую переменную:
     * `Resource Key` = **НАЗВАНИЕ_ЛЭЙБЛА**
@@ -39,7 +42,7 @@
 
 Нужно создать создать страницу **_“справочник Hold Days”_**
 
-![img4](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/4.png?raw=true)
+![img5](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/5.png?raw=true)
 
 Как видно на скрине в **MENU LABEL** указали **_@Resource('Solution:`SD_ACTIVITYDAYSHOLD`')@_**
 
@@ -51,7 +54,7 @@
 
 В котором указана ссылка на **Panel**, которая рендерит нам страницу
 
-![img5](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/5.png?raw=true)
+![img6](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/5%20New%20page/IMG/6.png?raw=true)
 
 **_LifeHack:_** _Для теста корректности созданию в этом файле можно указать ссылку на уже созданную и стабильно работающую **Panel**._
 
