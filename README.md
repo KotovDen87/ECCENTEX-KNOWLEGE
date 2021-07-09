@@ -2,7 +2,7 @@
 
 ## Feedback
 
-If you have suggestions, please **[open an issue](https://github.com/CrappyCodeMaker/CCM-Theme/issues)** or better yet, a **[pull request](https://github.com/CrappyCodeMaker/CCM-Theme/pulls)**. Be nice ;-)
+If you have suggestions, please **[open an issue](https://github.com/CrappyCodeMaker/CCM-Theme/issues)** or better yet, a **[pull request](https://github.com/CrappyCodeMaker/CCM-Theme/pulls)**. Be nice 😉
 
 ## Authors
 
