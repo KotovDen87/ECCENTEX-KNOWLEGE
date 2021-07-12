@@ -3,7 +3,7 @@
 <h3><details>
   <summary>Локализация различных лэйблов или полей на формах/гридах</summary>
 
-<p>
+<h7>
 1. Переходим в **`Setup`** солюшена
 
 ![SolutionSetup](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/IMG/SolutionSetup.png?raw=true)
@@ -28,7 +28,7 @@
 **_NOTE:_** _При создании локализации деплой не нужен._
 
 **_NOTE:_** _Чтобы полю, лейблу и т.п. сделать перевод в JS коде пишем: **t(`‘SOME_TEXT’`)** . Далее выполняем поиск _(п.3)_ по ключу **SOME_TEXT** и далее по мануалу._
-</p>
+</h7>
 </details></h3>
 
 <h3><details>
