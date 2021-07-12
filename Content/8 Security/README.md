@@ -47,7 +47,7 @@
 ```
   * Сам элемент описывается во **`ViewModel`**
 
-  _Как видно в примере, по дефолту_ **_isEditable_**: `false`
+  _Как видно в примере, по дефолту_ **_isEditable_**: `false` _(прописан в **data**)_. Смена состояний прописана чуть ниже в **formulas**
 ```JavaScript
     Ext.define('SD.view.ExternalParty.Individual.Detail.ViewModel', {
         extend: 'Ext.app.ViewModel',
@@ -63,7 +63,7 @@
             }
         },
 ```
-  * Далее в **`Controller`** сделано правило, которое обращается к БД, считывает в каких Бизнес Группах находится юзер и от этого либо скрывает либо показывает соответствующий элемент.
+  * Далее в **`Controller`** создается функция, которая обращается к БД, считывает в каких Бизнес-Группах находится юзер и от этого либо скрывает, либо показывает соответствующий элемент.
 ```JavaScript
     if (Ext.isEmpty(roles)) {
       EcxUtils5.Request.executeRule('ROOT_SD_CHECKBUSINESSROLE', null , function (response, options, srd) {
@@ -78,6 +78,31 @@
           , null, {preventParentCallback: true});
     }
 ```
+
+**_NOTE:_** _В проекте_ **_EXPO_** _существует файл **`DCM_GLOBAL_JS`**, в котором дописывается/модифицируется основная логика приложения. Функция проверки описанная выше так же существует в данном файле, исходя из этого, писать в **`Controller`** ее повторно не нужно. Достаточно во **`ViewModel`** вызвать ее, как мы описывали ранее._
+
+_Ниже пример функции проверки роли описанный в **`DCM_GLOBAL_JS`** :_
+```JavaScript
+    Ext.define('Override.FOM.view.PageBuilder.ExternalParty.RuntimePanel', {
+        override: 'FOM.view.PageBuilder.ExternalParty.RuntimePanel',
+        initComponent: function () {
+            this.callParent(arguments);
+            var me = this, vm = me.getViewModel(), roles = sessionStorage.getItem('IndividualRoles');
+
+            if (Ext.isEmpty(roles)) {
+                EcxUtils5.Request.executeRule('ROOT_SD_CHECKBUSINESSROLE', {}
+                    , function (response, options, srd) {
+                        var result = srd.parsedData.ROLES;
+                        if (result.indexOf('CLL_AGENT', 0) > 0) vm.set('isAgent', 1);
+                        if (result.indexOf('CLL_EXTAGENT', 0) > 0) vm.set('isAgent', 2);
+                        if (result.indexOf('ADMINISTRATOR', 0) > 0) vm.set('isAdmin', 1);
+                        sessionStorage.setItem('IndividualRoles',result);
+                    }, null, {preventParentCallback: true});
+            }
+        }
+    });
+```
+
   * Собственно вот пример бизнес правила. Получаем ИД ЮЗЕРА, смотрим какие у него бизнес правила, и возвращает через запятую список его БР
 ```SQL
     DECLARE
