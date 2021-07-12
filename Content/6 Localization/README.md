@@ -3,7 +3,7 @@
 ### Локализация различных лэйблов или полей на формах/гридах
 
 <details>
-  <summary style="background: #1C1C1C; border-radius: 5px">Click to expand!</summary>
+  <summary> </summary>
 
 1. Переходим в **`Setup`** солюшена
 
