@@ -2,7 +2,7 @@
 
 ### Локализация различных лэйблов или полей на формах/гридах
 <details>
-  <summary><i style="color: #00000050">Click to expand!</i></summary>
+  <summary><i><h7>Click to expand!</h7></i></summary>
 
 1. Переходим в **`Setup`** солюшена
 
