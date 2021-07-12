@@ -3,8 +3,6 @@
 <h3><details>
   <summary>Локализация различных лэйблов или полей на формах/гридах</summary>
 
-#### Локализация различных лэйблов или полей на формах/гридах
-
 1. Переходим в **`Setup`** солюшена
 
 ![SolutionSetup](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/IMG/SolutionSetup.png?raw=true)
@@ -34,8 +32,6 @@
 
 <h3><details>
   <summary>Локализация основного интерфейса <i>(пункты меню)</i></summary>
-
-#### Локализация основного интерфейса _(пункты меню)_
 
 1. Переходим в **`Студия приложений`** и выбираем нужный **SOLUTION**
 
