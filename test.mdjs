@@ -1,0 +1,23 @@
+# Introducing mdjs
+
+Let's import some components from Skypack!
+
+```js script
+import SlIcon from "https://cdn.skypack.dev/@shoelace-style/shoelace/dist/components/icon/icon.js"
+import SlIconButton from "https://cdn.skypack.dev/@shoelace-style/shoelace/dist/components/icon-button/icon-button.js"
+import { setBasePath } from "https://cdn.skypack.dev/@shoelace-style/shoelace/dist/utilities/base-path.js"
+
+setBasePath("https://cdn.skypack.dev/@shoelace-style/shoelace/dist")
+```
+
+## Hello from Shoelace!
+
+<sl-icon-button name="emoji-smile" label="Yo!"></sl-icon-button>
+
+And it's easy to change the DOM…
+
+<aside id="hey-hey"></aside>
+
+```js script
+document.querySelector("#hey-hey").innerHTML = "<p>You you!</p>"
+```
