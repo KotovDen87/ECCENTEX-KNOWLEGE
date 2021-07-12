@@ -47,14 +47,14 @@
 ```
   * Сам элемент описывается во **`ViewModel`**
 
-  _Как видно в примере, по дефолту_ **_isEditable_**: `false` _(прописан в **data**)_. Смена состояний прописана чуть ниже в **formulas**
+  _Как видно в примере, по дефолту_ **_isExtAgent_**: `false` _(прописан в **data**)_. Смена состояний прописана чуть ниже в **formulas**
 ```JavaScript
-    Ext.define('SD.view.ExternalParty.Individual.Detail.ViewModel', {
+    Ext.define('SD.view.ExternalParty.Individual.ViewModel', {
         extend: 'Ext.app.ViewModel',
-        alias: 'viewmodel.IndividualDetailViewModel',
-        requires: ['SD.model.SDDict', 'SD.model.Individual', 'SD.model.AddressExternalParties', 'SD.model.PartyType'],
+        alias: 'viewmodel.IndividualViewModel',
+        requires: [ 'SD.model.SDDict', 'SD.model.Individual', 'SD.model.AddressExternalParties', 'SD.model.PartyType' ],
         data: {
-            searchIndividual: null, isEditable: false,
+            searchIndividual: null, isEditable: false, isExtAgent: false,
             current: {Individual: null, editMode: 'Modify'}
         },
         formulas: {
