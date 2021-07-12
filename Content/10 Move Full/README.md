@@ -45,9 +45,11 @@
 ![img7](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/10%20Move%20Full/IMG/7.png?raw=true)
 
 9. После подтверждения делаем [деплой](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/README.md) солюшена
-10. Кроме того, необходимо импортировать конфигурацию DCM. Откройте **DEV** солюшен => **`Export/Import`** => выберите конфигурацию «`DCM Update Export No Dict`» и нажмите **`Export selected`**.
+10. Кроме того, необходимо импортировать конфигурацию DCM. Откройте **DEV** _(**_QA_**, если перенос делается с него)_ солюшен => **`Export/Import`** => выберите конфигурацию «`DCM Update Export No Dict`» и нажмите **`Export selected`**.
 
 ![img8](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/10%20Move%20Full/IMG/8.png?raw=true)
+
+**_NOTE:_** _Если файл автоматически не скачался, перейдите в **`Журнал`** => найдите нужную строчку (обычно она самая первая) => кликнете по ссылке в колонке `Source file` => файл начнет качаться_
 
 11. Далее откройте солюшен на который делается перенос => **`Export/Import`** => нажмите **`Import From file`** => выберите полученный ранее архив
 
