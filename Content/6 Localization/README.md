@@ -1,13 +1,7 @@
-# ЛОКАЛИЗАЦИЯ ИНТЕРФЕЙСА
-
-<script>
-var f1 = document.getElementById('#first');
-var f2 = document.getElementById('#second');
-
-</script>
+# [ЛОКАЛИЗАЦИЯ ИНТЕРФЕЙСА](#highlight yellow)
 
 ### Локализация различных лэйблов или полей на формах/гридах
-<details id="first" onClick="alert('Клик!')" >
+<details id="first">
   <summary><i><h7>click to expand!</h7></i></summary>
 
 1. Переходим в **`Setup`** солюшена
