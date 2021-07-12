@@ -2,7 +2,7 @@
 
 ### Локализация различных лэйблов или полей на формах/гридах
 <details>
-  <summary> </summary>
+  <summary><i style="color: #00000050">Click to expand!</i></summary>
 
 1. Переходим в **`Setup`** солюшена
 
@@ -33,7 +33,7 @@
 
 ### Локализация основного интерфейса _(пункты меню)_
 <details>
-  <summary>Click to expand!</summary>
+  <summary><i>Click to expand!</i></summary>
 
 1. Переходим в **`Студия приложений`** и выбираем нужный **SOLUTION**
 
