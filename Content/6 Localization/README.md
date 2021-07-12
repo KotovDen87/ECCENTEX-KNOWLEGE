@@ -1,7 +1,13 @@
 # ЛОКАЛИЗАЦИЯ ИНТЕРФЕЙСА
 
+<script>
+var f1 = document.getElementById('#first');
+var f2 = document.getElementById('#second');
+
+</script>
+
 ### Локализация различных лэйблов или полей на формах/гридах
-<details>
+<details id="first" onClick="alert('Клик!')" >
   <summary><i><h7>click to expand!</h7></i></summary>
 
 1. Переходим в **`Setup`** солюшена
@@ -32,7 +38,7 @@
 </details>
 
 ### Локализация основного интерфейса _(пункты меню)_
-<details>
+<details id="second">
   <summary><i>click to expand!</i></summary>
 
 1. Переходим в **`Студия приложений`** и выбираем нужный **SOLUTION**
