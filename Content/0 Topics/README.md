@@ -10,7 +10,7 @@
 1. [СИСТЕМНЫЕ ПЕРЕМЕННЫЕ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/7%20System%20Variables/SysVar.md)
 1. [НАСТРОЙКА РАЗРЕШЕНИЙ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/8%20Security/Security.md)
 1. ПЕРЕНОС
-    * [ПЕРЕНОС BACKEND’а](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/9%20Move%20backend/Back.md)
-    * [ПОЛНЫЙ ПЕРЕНОС](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/10%20Move%20Full/Full.md)
+    * [ПЕРЕНОС BACKEND’а](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/1%20backend/Back.md)
+    * [ПОЛНЫЙ ПЕРЕНОС](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/2%20Full/Full.md)
 1. [ОЧИСТКА UI КЭША](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/11%20Clear%20cache/Cache.md)
 1. [ПОИСК ФАЙЛА ДЛЯ ПРАВОК](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/12%20How%20to%20find%20rule/Finder.md)
