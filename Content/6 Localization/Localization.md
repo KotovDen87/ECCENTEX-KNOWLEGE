@@ -44,7 +44,7 @@
 ![img4](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/6%20Localization/IMG/4.png?raw=true)
 
 3. В открывшемся окне ищем нужный нам пункт меню или создаем новый. _(Искать нужно вручную, нормального поиска нет 😔)_
-4. После всех правок делаем [деплой](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/README.md)
+4. После всех правок делаем [деплой](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/Deploy.md)
 
 </details>
 

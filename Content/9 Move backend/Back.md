@@ -4,7 +4,7 @@
 2. Пушим правки на **git** репозиторий
 3. Переходим на ту среду, куда будут переноситься наши правки
 4. Находим нужный рул и вносим соответствующие изменения
-5. Делаем **[ДЕПЛОЙ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/README.md)**
+5. Делаем **[ДЕПЛОЙ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/Deploy.md)**
 
 
 <br/>
