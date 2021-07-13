@@ -1,8 +1,6 @@
-# UI Компоненты
+# FORMS
 
-### Forms
-### Grids
-### Wifgets
+https://docs.sencha.com/extjs/5.1.1/guides/components/forms.html
 
 
 <br/>

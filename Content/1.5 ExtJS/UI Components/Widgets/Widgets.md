@@ -1,8 +1,6 @@
-# UI Компоненты
+# WIDGETS
 
-### Forms
-### Grids
-### Wifgets
+https://docs.sencha.com/extjs/5.1.1/guides/components/widgets_widgets_columns.html
 
 
 <br/>
