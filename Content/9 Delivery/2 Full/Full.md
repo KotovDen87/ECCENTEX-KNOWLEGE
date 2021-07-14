@@ -59,6 +59,18 @@
 
 ![img10](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/2%20Full/IMG/10.png?raw=true)
 
+13. Переходим в **`Setup`** солюшена => **`Forms and Pages`** => **`Coded Pages`** => кликаем по кнопке **`Compile the DCM Global JS`**
+
+<details>
+  <summary><i>click to see where SETUP is</i></summary>
+
+![SolutionSetup](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/IMG/SolutionSetup.png?raw=true)
+
+</details>
+
+![img11](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/2%20Full/IMG/11.png?raw=true)
+
+14. Производим [очистку КЭШа](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/11%20Clear%20cache/Cache.md)
 
 <br/>
 
