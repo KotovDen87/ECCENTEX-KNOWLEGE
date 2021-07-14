@@ -36,4 +36,4 @@
 
 <br/>
 
-_Более подробно с **Ext.app.ViewModel** можно ознакомиться на [официальном сайте](https://docs.sencha.com/extjs/5.1.1/api/Ext.app.ViewModel.html)🔗._
+_Более подробно с **Ext.app.ViewModel** можно ознакомиться на [официальном сайте](https://docs.sencha.com/extjs/5.1.1/api/Ext.app.ViewModel.html)._
