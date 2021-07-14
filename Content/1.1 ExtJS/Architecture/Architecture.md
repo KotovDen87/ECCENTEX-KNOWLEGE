@@ -32,4 +32,4 @@
 
 <br/>
 
-_Более подробно с архитектурой **ExtJS** можно ознакомиться на [официальном сайте 🔗](https://docs.sencha.com/extjs/5.1.1/guides/application_architecture/application_architecture.html)._
+_Более подробно с архитектурой **ExtJS** можно ознакомиться на [официальном сайте](https://docs.sencha.com/extjs/5.1.1/guides/application_architecture/application_architecture.html)._
