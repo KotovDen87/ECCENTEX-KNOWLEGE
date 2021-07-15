@@ -2,7 +2,7 @@
 
 1. [НАЧАЛО РАБОТЫ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/Start.md)
     1. [ВВЕДЕНИЕ В ExtJS](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1.1%20ExtJS/ExtJS.md)
-    1. [ПРОЦЕДУРА ЗАГРУЗКА ДАННЫХ](link)
+    1. [ПРОЦЕДУРА ЗАГРУЗКА ДАННЫХ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1.2%20Load%20from%20CSV/LoadCSV.md)
 1. [ДЕПЛОЙ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/Deploy.md)
 1. [БИЗНЕС ОБЪЕКТЫ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/3%20Business%20Objects/BO.md)
 1. [РУЛЫ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/4%20Rules/Rules.md)
