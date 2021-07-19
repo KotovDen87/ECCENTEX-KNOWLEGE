@@ -38,7 +38,7 @@
     });
 ```
 
-![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/2%20Full/IMG/1.png?raw=true)
+![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/UI%20Components/Widgets/IMG/1.png?raw=true)
 
 В случае **`Sparklines`** вы должны указать размер _(и **width** и **height**)_ или использовать для этого менеджер компоновки **Ext JS**. Потому что внутренние рисунки не имеют естественного размера.
 
@@ -48,7 +48,7 @@
 
 Используя столбец виджетов для добавления виджетов **`Sparkline`** в грид, вы можете выполнить впечатляющий объем визуализации данных, пример ниже:
 
-![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/2%20Full/IMG/1.png?raw=true)
+![img2]https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/UI%20Components/Widgets/IMG/2.png?raw=true)
 
 В следующем примере на гриде мы добавим столбц виджетов, который содержит виджет индикатора выполнения _(добавляется к каждой строке)_.
 ```JavaScript
@@ -90,7 +90,7 @@
 
 Итог:
 
-![img3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/2%20Full/IMG/1.png?raw=true)
+![img3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/UI%20Components/Widgets/IMG/3.png?raw=true)
 
 
 <br/>
