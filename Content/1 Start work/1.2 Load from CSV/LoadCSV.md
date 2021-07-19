@@ -4,7 +4,7 @@
 
   ![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20Load%20from%20CSV/IMG/1.png?raw=true)
 
-  Оба таска созданы под обычной моей учеткой, **_НО_**  работают/запускаются из под системной учеткой: **`EXPOMAIN\svc-ecc-CFTtoECC`**.
+  Оба таска созданы под обычной моей учеткой, **_НО_**  работают/запускаются из под системной учетки: **`EXPOMAIN\svc-ecc-CFTtoECC`**.
 
 #### Порядок загрузки:
 
