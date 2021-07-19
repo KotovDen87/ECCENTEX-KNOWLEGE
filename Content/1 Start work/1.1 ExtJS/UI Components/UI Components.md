@@ -1,18 +1,31 @@
 # UI Компоненты
 
-### [Forms]()
+### [Forms](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/UI%20Components/Forms/Forms.md)
+
+<details>
+  <summary><i><h7>click to see some FORM!</h7></i></summary>
 
 ![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/UI%20Components/Forms/IMG/1.png?raw=true)
 
-### [Grids]()
+</details>
+
+### [Grids](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/UI%20Components/Grids/Grids.md)
+
+<details>
+  <summary><i><h7>click to see some GRID!</h7></i></summary>
 
 ![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/UI%20Components/Grids/IMG/1.png?raw=true)
 
+</details>
 
-### [Wifgets]()
+### [Widgets](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/UI%20Components/Widgets/Widgets.md)
+
+<details>
+  <summary><i><h7>click to see some WIDGET!</h7></i></summary>
 
 ![img3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/UI%20Components/Widgets/IMG/2.png?raw=true)
 
+</details>
 
 <br/>
 
