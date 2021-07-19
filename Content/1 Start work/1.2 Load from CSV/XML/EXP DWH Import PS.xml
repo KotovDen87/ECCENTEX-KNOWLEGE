@@ -45,7 +45,7 @@
   <Actions Context="Author">
     <Exec>
       <Command>PowerShell</Command>
-      <Arguments>-executionPolicy bypass -Command "&amp; 'E:\DWH\_LoadData.ps1' '1C'"</Arguments>
+      <Arguments>-executionPolicy bypass -Command "&amp; 'E:\DWH\procedures\_LoadData.ps1' '1C'"</Arguments>
     </Exec>
   </Actions>
 </Task>
