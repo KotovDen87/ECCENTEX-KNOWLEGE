@@ -2,7 +2,9 @@
 
 **`Ext.grid.Panel`** - одна из центральных составляющих **ExtJS**. Это невероятно универсальный компонент, который обеспечивает простой способ отображения, сортировки, группировки и редактирования данных.
 
-![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/2%20Full/IMG/1.png?raw=true)
+Пример грида с реального проекта:
+
+![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/UI%20Components/Grids/IMG/1.png?raw=true)
 
 Пример создания простой формы:
 ```JavaScript
