@@ -2,7 +2,7 @@
 
 ### [Forms]()
 
-![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/UI%20Components/Grids/IMG/1.png?raw=true)
+![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/UI%20Components/Forms/IMG/1.png?raw=true)
 
 ### [Grids]()
 

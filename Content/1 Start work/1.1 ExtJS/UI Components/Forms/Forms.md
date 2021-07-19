@@ -6,7 +6,7 @@
 
 Пример формы реального проекта:
 
-![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/UI%20Components/Grids/IMG/1.png?raw=true)
+![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/UI%20Components/Forms/IMG/1.png?raw=true)
 
 
 Под капотом **Form Panel** находится базовая форма, которая обрабатывает все службы управления полями ввода, проверки, отправки и загрузки форм. Это означает, что многие параметры конфигурации базовой формы можно использовать непосредственно на панели формы.
