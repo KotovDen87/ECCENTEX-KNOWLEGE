@@ -1,6 +1,6 @@
 # 📚 TOPICS
 
-Topic | sub Topic
+  |
 ----- | ----
 1     | 1
 
