@@ -2,7 +2,7 @@
 
  👶 [НАЧАЛО РАБОТЫ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/Start.md)
 
-  * 🤷‍♂️ [ВВЕДЕНИЕ В ExtJS](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/1%20Start%20work/1%20ExtJS/ExtJS.md)
+  * 🤷‍♂️ [ВВЕДЕНИЕ В ExtJS](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/ExtJS.md)
 
  ♻️ [ДЕПЛОЙ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/Deploy.md)
 
