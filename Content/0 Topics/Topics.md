@@ -1,6 +1,6 @@
 # 📚 TOPICS
 
-<p style="fontsize:10px"> 1. </p><p>👶 [НАЧАЛО РАБОТЫ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/Start.md)</p>
+<p style="font-size:10px"> 1. </p><p>👶 [НАЧАЛО РАБОТЫ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/Start.md)</p>
     <p> 1. 🤷‍♂️ [ВВЕДЕНИЕ В ExtJS](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/ExtJS.md)</p>
 
 1. ♻️ [ДЕПЛОЙ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/Deploy.md)
