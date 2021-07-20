@@ -2,7 +2,7 @@
 
  👶 [НАЧАЛО РАБОТЫ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/Start.md)
 
-  * ⚗️ [ВВЕДЕНИЕ В ExtJS](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/1%20Start%20work/1%20ExtJS/ExtJS.md)
+  * 🤷‍♂️ [ВВЕДЕНИЕ В ExtJS](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/1%20Start%20work/1%20ExtJS/ExtJS.md)
 
  ♻️ [ДЕПЛОЙ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/Deploy.md)
 
@@ -24,6 +24,6 @@
 
  ☢️ ПЕРЕНОС
 
-  * 🐱 [ПЕРЕНОС BACKEND’а](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.1%20Backend/Back.md)
-  * 🦄 [ПОЛНЫЙ ПЕРЕНОС](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.2%20Full/Full.md)
-  * 🚀 [ПРОЦЕСС ЗАГРУЗКИ ДАННЫХ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/1%20Start%20work/2%20Load%20from%20CSV/LoadCSV.md)
+  * 🧙 [ПЕРЕНОС BACKEND’а](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.1%20Backend/Back.md)
+  * 🧙‍♂️ [ПОЛНЫЙ ПЕРЕНОС](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.2%20Full/Full.md)
+  * 🏗️ [ПРОЦЕСС ЗАГРУЗКИ ДАННЫХ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/1%20Start%20work/2%20Load%20from%20CSV/LoadCSV.md)
