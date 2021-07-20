@@ -2,7 +2,7 @@
 
   Каждый день _(В 07:15 загружаются DWH, в 22:00 - 1С)_ производится загрузка данных о клиентах банка. За каждый из запусков отвечает соответствующий таск, созданный в **`Task Scheduler`**
 
-  ![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20Load%20from%20CSV/IMG/1.png?raw=true)
+  ![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/IMG/1.png?raw=true)
 
   Оба таска созданы под обычной базовой учеткой, **_НО_**  работают/запускаются из под системной учетки: **`EXPOMAIN\svc-ecc-CFTtoECC`**.
 
