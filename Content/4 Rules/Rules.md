@@ -70,7 +70,7 @@
 
 **_NOTE:_** При клонирование рула или создании нового **ВАЖНО** проверить переменные, т.к. по дефолту всем проставится **_`Type = INPUT`_**, который необходимо изменить на верный вариант.
 
-5. После всех правок делаем [деплой](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/Deploy.md)
+5. После всех правок делаем [ДЕПЛОЙ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/Deploy.md)
 
 **_NOTE:_** Если мы правим код рула, в котором не меняются переменные, как правило в 90% случаев, все будет работать **без деплоя!**
 

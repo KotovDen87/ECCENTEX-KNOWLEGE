@@ -36,7 +36,7 @@
 7. Далее переходим в сайдбаре **`Localization`** => **`Localization Data`** и создаем новую переменную:
     * `Resource Key` = **НАЗВАНИЕ_ЛЭЙБЛА**
     * Название линки на разных языках _(то что вы напишите в переводах, будет отражено в UI)_
-9. [Деплоим](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/Deploy.md) изменения
+9. [ДЕПЛОИМ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/Deploy.md) изменения
 
 
 <br/>

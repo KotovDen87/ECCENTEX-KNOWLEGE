@@ -44,7 +44,7 @@
 
 ![img7](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.2%20Full/IMG/7.png?raw=true)
 
-9. После подтверждения делаем [деплой](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/Deploy.md) солюшена
+9. После подтверждения делаем [ДЕПЛОЙ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/Deploy.md) солюшена
 10. Кроме того, необходимо импортировать конфигурацию DCM. Откройте **DEV** _(**_QA_**, если перенос делается с него)_ солюшен => **`Export/Import`** => выберите конфигурацию «`DCM Update Export No Dict`» и нажмите **`Export selected`**.
 
 ![img8](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.2%20Full/IMG/8.png?raw=true)
