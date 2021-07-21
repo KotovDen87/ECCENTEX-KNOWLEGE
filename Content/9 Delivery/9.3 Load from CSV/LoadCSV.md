@@ -40,3 +40,8 @@
  ```SQL
     select * from TBL_ERRORS_LOAD_DWH where col_entity_id<>'-1' and col_error not like '%not found%' order by col_created desc
  ```
+
+
+<br/>
+
+[back to topics](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/0%20Topics/Topics.md)
