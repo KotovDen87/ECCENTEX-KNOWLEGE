@@ -18,18 +18,23 @@
 
 ### MVC и MVVM
 
-  **[`(M) Model`](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1.1%20ExtJS/Architecture/Model/Model.md)** - это данные для вашего приложения. Набор классов (называемых «Models») определяет поля для своих данных (например, модель пользователя с полями имени пользователя и пароля). Models знают, как сохранять себя в пакете данных, и могут быть связаны с другими моделями через ассоциации.
+  **[`(M) Model`](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/Architecture/Model/Model.md)** - это данные для вашего приложения. Набор классов (называемых «Models») определяет поля для своих данных (например, модель пользователя с полями имени пользователя и пароля). Models знают, как сохранять себя в пакете данных, и могут быть связаны с другими моделями через ассоциации.
 
   Models обычно используются вместе с Stores для предоставления данных для сеток и других компонентов. Models также являются идеальным местом для любой логики данных, которая может вам понадобиться, например для проверки, преобразования и т.д.
 
   **`(V) View`** - это любой тип компонента, который представлен визуально. Например, сетки, деревья и панели считаются видами.
 
-  **[`(C) Controller`](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1.1%20ExtJS/Architecture/Controller/Controller.md)** - используются как место для поддержки логики представления, которая заставляет ваше приложение работать. Это может повлечь за собой отрисовку Views, маршрутизацию _(routing)_, создание экземпляров Models и любую другую логику приложения.
+  **[`(C) Controller`](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/Architecture/Controller/Controller.md)** - используются как место для поддержки логики представления, которая заставляет ваше приложение работать. Это может повлечь за собой отрисовку Views, маршрутизацию _(routing)_, создание экземпляров Models и любую другую логику приложения.
 
-  **[`(VM) ViewModel`](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1.1%20ExtJS/Architecture/ViewModel/ViewModel.md)** - это класс, который управляет данными, специфичными для представления.
+  **[`(VM) ViewModel`](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/Architecture/ViewModel/ViewModel.md)** - это класс, который управляет данными, специфичными для представления.
   Это позволяет заинтересованным компонентам связываться с ним и обновляться при изменении этих данных.
 
 
 <br/>
 
 _Более подробно с архитектурой **ExtJS** можно ознакомиться на [официальном сайте](https://docs.sencha.com/extjs/5.1.1/guides/application_architecture/application_architecture.html)._
+
+
+<br/>
+
+[back to topics](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/0%20Topics/Topics.md)
