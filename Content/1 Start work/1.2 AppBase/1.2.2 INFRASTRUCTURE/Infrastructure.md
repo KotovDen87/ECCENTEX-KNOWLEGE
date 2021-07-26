@@ -2,7 +2,7 @@
 
 Предлагаемая схема инфраструктуры высокого уровня представлена на рисунке ниже.
 
-![High Level Infrastructure](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/2.2%20INFRASTRUCTURE/IMG/HighLevelInfrastructure.png?raw=true)
+![High Level Infrastructure](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.2%20INFRASTRUCTURE/IMG/HighLevelInfrastructure.png?raw=true)
 
 ### СЕТЕВЫЕ УСТРОЙСТВА
 
