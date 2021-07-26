@@ -32,7 +32,7 @@
   * Веб-трафик для основного приложения DCM. Будет использоваться протокол связи **SSL** _(TLS v1.2)_. SSL будет выгружен на балансировщик нагрузки, и простые запросы будут передаваться на соответствующие порты хостов основного приложения **DCM**.
   * Обмен данными с уровнем данных. В этом случае, если потребуется интеграция с устаревшими системами, необходимо включить соответствующие протоколы связи.
 
-Дополнительные сведения см. в разделе [2.3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/2.3%20INSTALLATION%20ARCHITECTURE/InstallationArchitecture.md) посвященном архитектуре приложений DCM.
+Дополнительные сведения смотри в разделе [2.3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/2.3%20INSTALLATION%20ARCHITECTURE/InstallationArchitecture.md) посвященном архитектуре приложений DCM.
 
 ### УРОВЕНЬ ОБЩЕЙ ИНФРАСТРУКТУРЫ
 

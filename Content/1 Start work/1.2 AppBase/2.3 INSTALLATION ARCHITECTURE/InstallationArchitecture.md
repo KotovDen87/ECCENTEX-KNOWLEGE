@@ -1,6 +1,13 @@
 # АРХИТЕКТУРА УСТАНОВКИ APPBASE DCM
 
-![High Level Infrastructure](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/IMG/HighLevelInfrastructure.png)
+На рисунке ниже показана основная схема архитектуры установки AppBase.
+
+![Installation Architecture](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/IMG/HighLevelInfrastructure.png)
+
+На следующей диаграмме показана высокоуровневая архитектура платформы AppBase иллюстрирующая зависимости между уровнями.
+между ярусами.
+
+![Dependencies Between Tiers](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/IMG/HighLevelInfrastructure.png)
 
 
 <br/>
