@@ -17,7 +17,7 @@
 
 На рисунке ниже показана топология аварийного восстановления солюшена DCM.
 
-![Disaster Recovery Topology](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/2.3%20INSTALLATION%20ARCHITECTURE/IMG/InstallationArchitecture.png?raw=true)
+![Disaster Recovery Topology](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.4%20Disaster%20Recovery/IMG/DisasterRecoveryTopology.png?raw=true)
 
 Некоторые из ключевых аспектов описанного выше:
 1. Солюшен имеет 2 сайта. Текущий продакшен сайт работает и активен, в то время как второй сайт работает как резервный и находится в пассивном режиме.
