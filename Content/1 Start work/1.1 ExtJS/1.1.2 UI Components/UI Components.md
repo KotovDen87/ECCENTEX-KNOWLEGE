@@ -5,7 +5,7 @@
 <details>
   <summary><i><h7>click to see some FORM!</h7></i></summary>
 
-![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/UI%20Components/Forms/IMG/1.png?raw=true)
+![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/1.1.2%20UI%20Components/Forms/IMG/1.png?raw=true)
 
 </details>
 
@@ -14,7 +14,7 @@
 <details>
   <summary><i><h7>click to see some GRID!</h7></i></summary>
 
-![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/UI%20Components/Grids/IMG/1.png?raw=true)
+![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/1.1.2%20UI%20Components/Grids/IMG/1.png?raw=true)
 
 </details>
 
@@ -23,7 +23,7 @@
 <details>
   <summary><i><h7>click to see some WIDGET!</h7></i></summary>
 
-![img3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/UI%20Components/Widgets/IMG/2.png?raw=true)
+![img3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/1.1.2%20UI%20Components/Widgets/IMG/2.png?raw=true)
 
 </details>
 
@@ -34,4 +34,4 @@ _Более подробно с UI компонентами **ExtJS** можно
 
 <br/>
 
-[back to topics](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/0%20Topics/Topics.md)
+[back to ExtJS](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/ExtJS.md) | [back to topics](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/0%20Topics/Topics.md)
