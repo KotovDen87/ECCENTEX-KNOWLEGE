@@ -8,10 +8,10 @@
 
 ![Dependencies Between Tiers](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.3%20Architecture/IMG/DependenciesBetweenTiers.png?raw=true)
 
-#### [УРОВЕНЬ ВЕБ-ПРИЛОЖЕНИЯ APPBASE](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/2.3%20INSTALLATION%20ARCHITECTURE/SUB%20TOPICS/2.3.1.md)
-#### [УРОВЕНЬ СЛУЖБ СИСТЕМНОГО ПРИЛОЖЕНИЯ APPBASE](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/2.3%20INSTALLATION%20ARCHITECTURE/SUB%20TOPICS/2.3.2.md)
-#### [УРОВЕНЬ ИНФРАСТРУКТУРЫ APPBASE](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/2.3%20INSTALLATION%20ARCHITECTURE/SUB%20TOPICS/2.3.3.md)
-#### [ЛОГИРОВАНИЕ И АУДИТ УСТАНОВКИ APPBASE](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/2.3%20INSTALLATION%20ARCHITECTURE/SUB%20TOPICS/2.3.4.md)
+#### [УРОВЕНЬ ВЕБ-ПРИЛОЖЕНИЯ APPBASE](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.3%20Architecture/SUB%20TOPICS/2.3.1.md)
+#### [УРОВЕНЬ СЛУЖБ СИСТЕМНОГО ПРИЛОЖЕНИЯ APPBASE](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.3%20Architecture/SUB%20TOPICS/2.3.2.md)
+#### [УРОВЕНЬ ИНФРАСТРУКТУРЫ APPBASE](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.3%20Architecture/SUB%20TOPICS/2.3.3.md)
+#### [ЛОГИРОВАНИЕ И АУДИТ УСТАНОВКИ APPBASE](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.3%20Architecture/SUB%20TOPICS/2.3.4.md)
 
 ### ИТОГИ
 Исходя из выше сказанного, **архитектура AppBase** обеспечивает отказоустойчивую и высокодоступную конфигурацию, что позволяет удовлетворить следующие требования:
