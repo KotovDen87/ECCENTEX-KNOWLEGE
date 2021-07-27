@@ -7,8 +7,8 @@
 
   Для разработки мобильных веб-приложений ранее был создан специальный фреймворк Sencha Touch, поддерживающий множество мобильных операционных систем, имеющих браузер с поддержкой HTML5, однако с выходом версии Ext JS 6.0.0 он был объединён обратно в универсальный Ext JS.
 
-### [Архитектура](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/1.1.1%20Architecture/Architecture.md)
-### [UI Компоненты](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/1.1.2%20UI%20Components/UI%20Components.md)
+### 🧱 [Архитектура](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/1.1.1%20Architecture/Architecture.md)
+### 💻 [UI Компоненты](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/1.1.2%20UI%20Components/UI%20Components.md)
 
 
 <br/>

@@ -19,8 +19,7 @@
 
 2. **GIT** - базовые знания хотя бы. ([Туториал по основам GIT](https://www.youtube.com/watch?v=zZBiln_2FhM))
 3. Знания **JS** (ExtJS не особо и JS, но знать JS нужно). ([Туториал по основам JS](https://www.youtube.com/watch?v=Bluxbh9CaQ0&list=PLqKQF2ojwm3llpxoP1rzoz7TE2Fpo4Zhp&index=11))
-4. Введение в [ExtJS](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1.1%20ExtJS/ExtJS.md)
-5. Процесс [загрузки данных](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1.2%20Load%20from%20CSV/LoadCSV.md)
+4. Введение в [ExtJS](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/ExtJS.md)
 
 
 <br/>

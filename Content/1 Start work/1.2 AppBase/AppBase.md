@@ -1,4 +1,4 @@
-# ИНФРАСТРУКТУРА И АРХИТЕКТУРА УСТАНОВКИ APPBASE DCM
+# 🧱 ИНФРАСТРУКТУРА И АРХИТЕКТУРА УСТАНОВКИ APPBASE DCM
 
 1. [ДОПУЩЕНИЯ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.1%20Assumptions/Assumptions.md)
 1. [ДИЗАЙН ИНФРАСТРУКТУРЫ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.2%20Infrastructure/Infrastructure.md)
