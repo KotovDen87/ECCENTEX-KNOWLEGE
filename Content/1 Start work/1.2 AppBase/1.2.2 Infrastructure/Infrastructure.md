@@ -2,7 +2,7 @@
 
 Предлагаемая схема инфраструктуры высокого уровня представлена на рисунке ниже.
 
-![High Level Infrastructure](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.2%20INFRASTRUCTURE/IMG/HighLevelInfrastructure.png?raw=true)
+![High Level Infrastructure](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.2%20Infrastructure/IMG/HighLevelInfrastructure.png?raw=true)
 
 ### СЕТЕВЫЕ УСТРОЙСТВА
 
@@ -32,7 +32,7 @@
   * Веб-трафик для основного приложения DCM. Будет использоваться протокол связи **SSL** _(TLS v1.2)_. SSL будет выгружен на балансировщик нагрузки, и простые запросы будут передаваться на соответствующие порты хостов основного приложения **DCM**.
   * Обмен данными с уровнем данных. В этом случае, если потребуется интеграция с устаревшими системами, необходимо включить соответствующие протоколы связи.
 
-Дополнительные сведения смотри в разделе [2.3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/2.3%20INSTALLATION%20ARCHITECTURE/InstallationArchitecture.md) посвященном архитектуре приложений DCM.
+Дополнительные сведения смотри в разделе посвященном [архитектуре приложений DCM](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.3%20Architecture/InstallationArchitecture.md).
 
 ### УРОВЕНЬ ОБЩЕЙ ИНФРАСТРУКТУРЫ
 
