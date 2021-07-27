@@ -1,5 +1,6 @@
-# 📄 ДОПУЩЕНИЯ
-## 📄 APPBASE DCM INFRASTRUCTURE ASSUMPTIONS
+## 📄 ДОПУЩЕНИЯ
+#### 📄 APPBASE DCM INFRASTRUCTURE ASSUMPTIONS
+---
 
 Ниже приведены некоторые предположения, которые были сделали во время планирования установки **AppBase DCM** на **Vodafone** _(хост)_:
 

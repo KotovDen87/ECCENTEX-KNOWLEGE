@@ -1,5 +1,6 @@
-# 🏗️ АРХИТЕКТУРА УСТАНОВКИ APPBASE DCM
-## 🏗️ APPBASE DCM INSTALLATION ARCHITECTURE
+## 🏗️ АРХИТЕКТУРА УСТАНОВКИ APPBASE DCM
+#### 🏗️ APPBASE DCM INSTALLATION ARCHITECTURE
+---
 
 На рисунке ниже показана основная схема архитектуры установки AppBase.
 
