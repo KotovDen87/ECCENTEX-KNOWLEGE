@@ -2,7 +2,7 @@
 
   Каждый день _(В 07:15 загружаются DWH, в 22:00 - 1С)_ автоматически производится загрузка данных о клиентах банка. За каждый из запусков отвечает соответствующий таск, созданный в **`Task Scheduler`**, который запускает **PowerShell скрипт** **`_LoadData.ps1`**.
 
-  ![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/IMG/1.png?raw=true)
+  ![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/9.3.1%20Automated%20data%20load/IMG/1.png?raw=true)
 
   Оба таска запускаются под системной учеткой: **`EXPOMAIN\svc-ecc-CFTtoECC`**.
 
