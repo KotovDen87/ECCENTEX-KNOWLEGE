@@ -6,7 +6,7 @@
 
 1. Первое что необходимо сделать, проверить сам файл на соответствие заданному формату:
 
-     client_id  |  phone_id  |  phone_number  |  typ  |  contact_face  |  active  |  dsc  |
+        |  client_id  |  phone_id  |  phone_number  |  typ  |  contact_face  |  active  |  dsc  |
 
 
 
