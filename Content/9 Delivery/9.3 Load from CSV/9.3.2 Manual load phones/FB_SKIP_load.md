@@ -49,9 +49,13 @@
 
 ![Save file](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/9.3.2%20Manual%20load%20phones/IMG/2.png?raw=true)
 
-4. Переходим на удаленку в папку **`E:\DWH\`** => загружаем полученный файл в **`toLoad`**
-5. Кликаем ПКМ по файлу **`FB_SKIP_only.ps1`** => run with PowerShell
-6. После загрузки данных в ТМП-таблицу **DWH_PHONE_CFT** заходим в БД:
+4. Проверяем файл в **`Notepad++`**. если пробел был проставлен, то последний символ строки будет **`,`** _(см. рисунок ниже)_
+
+![Right File](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/9.3.2%20Manual%20load%20phones/IMG/3.png?raw=true)
+
+5. Переходим на удаленку в папку **`E:\DWH\`** => загружаем полученный файл в **`toLoad`**
+6. Кликаем ПКМ по файлу **`FB_SKIP_only.ps1`** => run with PowerShell
+7. После загрузки данных в ТМП-таблицу **DWH_PHONE_CFT** заходим в БД:
   * Смотрим все ли записи загружены
 ```SQL
     SELECT count(1) FROM DWH_PHONE_CFT WHERE col_status='NEW';
