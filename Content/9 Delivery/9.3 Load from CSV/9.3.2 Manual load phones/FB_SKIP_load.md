@@ -5,6 +5,7 @@
 Процесс загрузки простой, но время затратный:
 
 1. Первое что необходимо сделать, проверить сам файл на соответствие заданному формату:
+
 `client_id`, `phone_id`, `phone_num`, `typ`, `contact_face`, `active`, `dsc`
 
 ![Columns Format](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/9.3.2%20Manual%20load%20phones/IMG/1.png?raw=true)
