@@ -12,10 +12,38 @@
 
 **_NOTE:_** _Важно поставить "**пробел**" в колонке **`H`**. Иначе **`SQL*Loader`** не распознает начало новой строки._
 
-2. Проверяем поле **`client_id`** на корректность данных, т.к. встречаются данные со значением вида: **`1.03546E+11`**.
-Исправить это не сложно:
-  1. Задайте формат ячейки: `Дополнительный`
-  1. Тип: `Zip Code`
+2. Проверяем поле **`client_id`** на корректность данных, т.к. встречаются данные со значением вида: **`1.03546E+11`**. Исправить это не сложно:
+    * Задайте формат ячейки: `Дополнительный`
+    * Тип: `Zip Code`
+3. Сохраняем файл Следующим образом:
+    * Имя файла: `FB_PHONE` - для источника **Фабрика**; `SK_PHONE` - для источника **Скип** _(мобильный розыск)_
+    * Тип файла: `CSV (разделители - запятые)(*.csv)`
+
+![Save file](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/9.3.2%20Manual%20load%20phones/IMG/2.png?raw=true)
+
+
+4. Переходим на удаленку в папку **`E:\DWH\`** => загружаем полученный файл в **`toLoad`**
+5. Кликаем ПКМ по файлу **`FB_SKIP_only.ps1`** => run with PowerShell
+6. После загрузки данный в ТМП-таблицу **DWH_PHONE_CFT** заходим в БД:
+  * Смотрим все ли записи загружены
+```SQL
+    SELECT count(1) FROM DWH_PHONE_CFT WHERE col_status='NEW';
+```
+
+  * Запускаем процедуру
+```SQL
+    DECLARE
+      sErrorMessage VARCHAR(2000);
+    BEGIN
+      LOAD_DATA_FROM_DWH.LoadPhones('FULL_LOAD', sErrorMessage);
+    END;
+```
+
+  * Запускаем SQL-запросы, для проверки. _(Если **все** данные успешно загружены COUNT = 0. Если нет, разбираемся почему не загружены)_
+```SQL
+    SELECT count(1) FROM DWH_PHONE_CFT WHERE col_status='NEW';
+    SELECT count(1) FROM DWH_PHONE_CFT WHERE col_status='ERROR';
+```
 
 
 ```PowerShell
