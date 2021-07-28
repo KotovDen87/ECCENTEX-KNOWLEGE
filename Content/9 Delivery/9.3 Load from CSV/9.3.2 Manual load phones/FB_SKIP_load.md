@@ -6,7 +6,7 @@
 
 1. Первое что необходимо сделать, проверить сам файл на соответствие заданному формату:
 
-![Columns Format](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/9.3.2%20Manual%20load%20phones/IMG/1.png)
+![Columns Format](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/9.3.2%20Manual%20load%20phones/IMG/1.png?raw=true)
 
 **_NOTE:_** _Важно поставить "**пробел**" в колонке **`H`**. Иначе **`SQL*Loader`** не распознает начало новой строки._
 
