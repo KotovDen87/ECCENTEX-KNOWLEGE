@@ -44,7 +44,7 @@
   </Settings>
   <Actions Context="Author">
     <Exec>
-      <Command>PowerShell</Command>
+      <Command>"C:\Program Files\PowerShell\7\pwsh.exe"</Command>
       <Arguments>-executionPolicy bypass -Command "&amp; 'E:\DWH\procedures\_LoadData.ps1' '1C'"</Arguments>
     </Exec>
   </Actions>

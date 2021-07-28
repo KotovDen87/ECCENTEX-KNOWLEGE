@@ -3,12 +3,12 @@
   <RegistrationInfo>
     <Date>2021-05-13T15:06:49.7280618</Date>
     <Author>EXPOMAIN\a101082</Author>
-    <Description>Import data from 1C without create call-list</Description>
-    <URI>\EXP 1C Import PS</URI>
+    <Description>Import data from DWH and create call-list</Description>
+    <URI>\EXP DWH Import PS</URI>
   </RegistrationInfo>
   <Triggers>
     <CalendarTrigger>
-      <StartBoundary>2021-05-14T22:00:00</StartBoundary>
+      <StartBoundary>2021-05-14T07:15:00</StartBoundary>
       <ExecutionTimeLimit>PT2H</ExecutionTimeLimit>
       <Enabled>true</Enabled>
       <ScheduleByDay>
@@ -44,8 +44,8 @@
   </Settings>
   <Actions Context="Author">
     <Exec>
-      <Command>PowerShell</Command>
-      <Arguments>-executionPolicy bypass -Command "&amp; 'E:\DWH\procedures\_LoadData.ps1' '1C'"</Arguments>
+      <Command>"C:\Program Files\PowerShell\7\pwsh.exe"</Command>
+      <Arguments>-executionPolicy bypass -Command "&amp; 'E:\DWH\procedures\_LoadData.ps1' 'DWH'"</Arguments>
     </Exec>
   </Actions>
 </Task>
