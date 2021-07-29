@@ -1,5 +1,39 @@
 # 💩 ЗАГРУЗКА ТЕСТОВЫХ ДАННЫХ
 
+### ОБНОВЛЕНИЕ ДАННЫХ НА `QA`
+
+1. Открываем **PowerShell 7.1** _(желательно от админа)_
+
+![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/9.3.4%20Data%20for%20testing/IMG/1.png?raw=true)
+
+2. Переходим в каталог с скриптом `E:\DWH`
+```PowerShell
+    cd E:\DWH
+    # или
+    Set-Location E:\DWH
+```
+
+3. Запускаем скрипт `LoadData_QA.ps1` с нужным параметром
+```PowerShell
+    #FOR 1C archive
+    ./LoadData_QA.ps1 '1C'
+    #FOR DWH archive
+    ./LoadData_QA.ps1 'DWH'
+```
+**_NOTE:_** _Для загрузки архива за конкретную дату, необходимо открыть скрипт в редакторе и в соответствующей строке задать маску:
+  * `49` при загрузке **DWH**
+  * `219` при загрузке **1C**
+```PowerShell
+    # DEFAULT
+    $SearchMask = Get-Date -Format "yyyyMMdd"
+    # NEW ONE
+    $SearchMask = "20210729"
+```
+
+4. Ждем заверщения 😉
+
+![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/9.3.4%20Data%20for%20testing/IMG/2.png?raw=true)
+
 
 <br/>
 
