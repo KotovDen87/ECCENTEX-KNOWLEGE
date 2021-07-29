@@ -41,7 +41,9 @@
 ```XML
     <Priority>4</Priority>
 ```
-
+  * Примеры актуальных XML:
+    * для [DWH](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/9.3.3%20Task%20scheduler/XML/EXP%20DWH%20Import%20PS.xml)
+    * для [1C](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/9.3.3%20Task%20scheduler/XML/EXP%201C%20Import%20PS.xml)
 9. Импортируем обновленный таск в **`Task Scheduler`**, удалив при этом старую версию.
 
 
