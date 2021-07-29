@@ -2,7 +2,7 @@
 
 ### ЛОКАЛЬНЫЙ ЗАПУСК DEV-среды
 
-1. В консоле запускаем сервер:
+1. В **консоле** запускаем сервер:
 ```PowerShell
     # For START server
     > node .\node_modules\pm2\bin\pm2 start server.js
@@ -10,7 +10,7 @@
     # For STOP server
     > node .\node_modules\pm2\bin\pm2 stop server.js
 ```
-2. В консоле браузера вписать:
+2. В **консоле** браузера _(вызывается на `F12`)_ вписать:
 ```JavaScript
     document.cookie = 'ConfigDevUrl=http://localhost:1841/config/ecx/config-dev-nores.js'
 ```
@@ -23,7 +23,7 @@
 ### МОНИТОРИНГ СЕССИЙ БД
 
 ```SQL
-    -- Мониторин сессий
+    -- Мониторинг сессий
     SELECT t.SID, t.SERIAL#, t.osuser as "User", t.MACHINE as "PC", t.PROGRAM as "Program"
     FROM v$session t
     --WHERE (NLS_LOWER(t.PROGRAM) = 'cash.exe') -- посмотреть сессии от программы cash.exe
