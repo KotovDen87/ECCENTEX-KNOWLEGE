@@ -1,10 +1,10 @@
 # 📚 TOPICS
 
 1. 👶 [НАЧАЛО РАБОТЫ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/Start.md)
-    1. 🤷‍♂️ [ВВЕДЕНИЕ В ExtJS](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/ExtJS.md)
-    2. 🤯 [ECCENTEX APPBASE DCM](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/AppBase.md)
-        1. 📄 [ДОПУЩЕНИЯ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.1%20Assumptions/Assumptions.md)
-        1. 📊 [ДИЗАЙН ИНФРАСТРУКТУРЫ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.2%20Infrastructure/Infrastructure.md)
+    * 🤷‍♂️ [ВВЕДЕНИЕ В ExtJS](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/ExtJS.md)
+    * 🤯 [ECCENTEX APPBASE DCM](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/AppBase.md)
+        * 📄 [ДОПУЩЕНИЯ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.1%20Assumptions/Assumptions.md)
+        * 📊 [ДИЗАЙН ИНФРАСТРУКТУРЫ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.2%20Infrastructure/Infrastructure.md)
         * 🏗️ [АРХИТЕКТУРА УСТАНОВКИ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.3%20Architecture/InstallationArchitecture.md)
         * 🚨 [АВАРИЙНОЕ ВОССТАНОВЛЕНИЕ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.4%20Disaster%20Recovery/DisasterRecovery.md)
         * 💾 [РАЗМЕР СОЛЮШЕНА](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.2%20AppBase/1.2.5%20Solution%20Sizing/SolutionSizing.md)
@@ -18,9 +18,9 @@
 9. 🗑️ [ОЧИСТКА UI КЭША](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/11%20Clear%20cache/Cache.md)
 10. 🔍 [ПОИСК ФАЙЛА ДЛЯ ПРАВОК](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/12%20How%20to%20find%20rule/Finder.md)
 11. ☢️ ПЕРЕНОС
-    1. 🧙 [ПЕРЕНОС BACKEND’а](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.1%20Backend/Back.md)
-    2. 🧙‍♂️ [ПОЛНЫЙ ПЕРЕНОС](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.2%20Full/Full.md)
-    3. 🏗️ [ПРОЦЕСС ЗАГРУЗКИ ДАННЫХ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/LoadCSV.md)
+    * 🧙 [ПЕРЕНОС BACKEND’а](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.1%20Backend/Back.md)
+    * 🧙‍♂️ [ПОЛНЫЙ ПЕРЕНОС](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.2%20Full/Full.md)
+    * 🏗️ [ПРОЦЕСС ЗАГРУЗКИ ДАННЫХ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/LoadCSV.md)
         * 🚅 [ЕЖЕДНЕВНАЯ АВТОМАТИЧЕСКАЯ ЗАГРУЗКА](link)
         * 📲 [ЗАГРУЗКА ДОП. ТЕЛЕФОНОВ](link)
         * 🕑 [TASK SCHEDULER](link)
