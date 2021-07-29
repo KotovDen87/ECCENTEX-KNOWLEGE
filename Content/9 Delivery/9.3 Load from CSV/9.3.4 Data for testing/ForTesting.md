@@ -10,18 +10,18 @@
 
 2. Переходим в каталог с скриптом `E:\DWH`
 ```PowerShell
-    > cd E:\DWH
+    C:\Windows\System32> cd E:\DWH
     # или
-    > Set-Location E:\DWH
+    C:\Windows\System32> Set-Location E:\DWH
 ```
 
 3. Запускаем скрипт `LoadData_QA.ps1` с нужным параметром
 ```PowerShell
     #FOR 1C archive
-    > ./LoadData_QA.ps1 '1C'
+    C:\Windows\System32> ./LoadData_QA.ps1 '1C'
 
     #FOR DWH archive
-    > ./LoadData_QA.ps1 'DWH'
+    C:\Windows\System32> ./LoadData_QA.ps1 'DWH'
 ```
 **_NOTE:_** _Для загрузки архива за конкретную дату, необходимо открыть скрипт в редакторе и в соответствующей строке задать маску:
   * `49` при загрузке **DWH**
