@@ -10,18 +10,16 @@
 
 2. Переходим в каталог с скриптом `E:\DWH`
 ```PowerShell
-    C:\Windows\System32> cd E:\DWH
-    # или
-    C:\Windows\System32> Set-Location E:\DWH
+    > cd E:\DWH
 ```
 
 3. Запускаем скрипт `LoadData_QA.ps1` с нужным параметром
 ```PowerShell
-    #FOR 1C archive
-    C:\Windows\System32> ./LoadData_QA.ps1 '1C'
+    # For the 1C archive
+    > ./LoadData_QA.ps1 '1C'
 
-    #FOR DWH archive
-    C:\Windows\System32> ./LoadData_QA.ps1 'DWH'
+    # For the DWH archive
+    > ./LoadData_QA.ps1 'DWH'
 ```
 **_NOTE:_** _Для загрузки архива за конкретную дату, необходимо открыть скрипт в редакторе и в соответствующей строке задать маску:
   * `49` при загрузке **DWH**
@@ -30,7 +28,7 @@
     # DEFAULT
     $SearchMask = Get-Date -Format "yyyyMMdd"
 
-    # U can write date whatever u want for tests
+    # Format must be: yyyyMMdd
     $SearchMask = "20210729"
 ```
 
@@ -44,6 +42,17 @@
 
 <details><summary><i><h7>click to expand!</h7></i></summary>
 
+1. Разархивируем архив в папку **`E:\DWH\`** **`toLoad`**
+2. Запускаем скрипт `TMP_only.ps1` одним из способов:
+    * Через консоль **PowerShell**
+    * Руками: кликаем **ПКМ** по файлу => `run with PowerShell`
+
+На заметку:
+  1. По дефолту в скрипте заданы логин/пароль **PROD** среды. _(QA данные закомментированы)_
+  2. Список файлов для загрузки указан на `22` строке. Вы можете закомментировать не нужные, при загрузке
+  3. Если запус скрипта производится не от **админа**:
+    * логи на строках: `61` `62` `63` `65`, нужно закомментировать
+    * строки: `17` и `67`, нужно закомментировать
 
 </details>
 
