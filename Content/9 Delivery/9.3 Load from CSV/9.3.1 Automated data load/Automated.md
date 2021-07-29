@@ -15,23 +15,6 @@
       * **_TMP таблицы_** - это таблицы, созданные в БД на каждый файл в архиве. Название таблицы соответствует названию файла
       **_Пример:_** _В архиве существует файл, `DWH_PROPERTY_VALUE_CFT_20210720192125.csv`, соответственно загрузка будет осуществлятся в таблицу `DWH_PROPERTY_VALUE_CFT`, аналогично для остальных файлов._
       * По составу полей **_TMP таблицы_** повторяют структуру загружаемого в нее файла **`*.CSV`** из архива.
-      * Посмотреть все ли записи загружены в **_TMP таблицы_** можно, запустив один из запросов:
-```SQL
-    select count(1) from DWH_PERSON_CFT where col_status='NEW';
-    select count(1) from DWH_PHONE_CFT where col_status='NEW';
-    select count(1) from DWH_ADDRESS_CFT where col_status='NEW';
-    select count(1) from DWH_DEBT_STATIC_CFT where col_status='NEW';
-    select count(1) from DWH_DEBT_CFT where col_status='NEW';
-    select count(1) from DWH_ACCOUNT_DEBT_CFT where col_status='NEW';
-    select count(1) from DWH_ACCOUNT_REST_CFT where col_status='NEW';
-    select count(1) from DWH_DEBT_STRUCTURE_CFT where col_status='NEW';
-    select count(1) from DWH_INTEREST_RATE_CFT where col_status='NEW';
-    select count(1) from DWH_GUARANTEE_CFT where col_status='NEW';
-    select count(1) from DWH_PROPERTY_CFT where col_status='NEW';
-    select count(1) from DWH_PROPERTY_VALUE_CFT where col_status='NEW';
-    select count(1) from DWH_PROPERTY_PARAM_CFT where col_status='NEW';
-    select count(1) from DWH_DEBT_PAYMENTS_CFT where col_status='NEW';
-```
   3. После того, как данные из файла были загружены в соответствующую таблицу, файл из **`toLoad`** перемещается в папку **`processed`**
   4. После загрузки всех файлов **PowerShell скрипт** запускает **`SQL*Plus`**, вызывающий БД пакет с процедурой загрузки.
       * При загрузке из **`CFT`** вызывается процедура пакета **`LOAD_DATA_FROM_DWH.LoadDwhData()`**
@@ -53,10 +36,28 @@
     select * from TBL_ERRORS_LOAD_DWH where col_entity_id='-1' and col_error like 'DWH%' order by col_created desc;
 ```
 
- * Проверить были ли ошибки при загрузке воможно, запустив данный **SQL** запрос:
- ```SQL
-    select * from TBL_ERRORS_LOAD_DWH where col_entity_id<>'-1' and col_error not like '%not found%' order by col_created desc
- ```
+  * Проверить были ли ошибки при загрузке воможно, запустив данный **SQL** запрос:
+```SQL
+     select * from TBL_ERRORS_LOAD_DWH where col_entity_id<>'-1' and col_error not like '%not found%' order by col_created desc
+```
+
+  * Посмотреть все ли записи загружены в **TMP таблицы** можно, запустив один из запросов:
+```SQL
+    select count(1) from DWH_PERSON_CFT where col_status='NEW';
+    select count(1) from DWH_PHONE_CFT where col_status='NEW';
+    select count(1) from DWH_ADDRESS_CFT where col_status='NEW';
+    select count(1) from DWH_DEBT_STATIC_CFT where col_status='NEW';
+    select count(1) from DWH_DEBT_CFT where col_status='NEW';
+    select count(1) from DWH_ACCOUNT_DEBT_CFT where col_status='NEW';
+    select count(1) from DWH_ACCOUNT_REST_CFT where col_status='NEW';
+    select count(1) from DWH_DEBT_STRUCTURE_CFT where col_status='NEW';
+    select count(1) from DWH_INTEREST_RATE_CFT where col_status='NEW';
+    select count(1) from DWH_GUARANTEE_CFT where col_status='NEW';
+    select count(1) from DWH_PROPERTY_CFT where col_status='NEW';
+    select count(1) from DWH_PROPERTY_VALUE_CFT where col_status='NEW';
+    select count(1) from DWH_PROPERTY_PARAM_CFT where col_status='NEW';
+    select count(1) from DWH_DEBT_PAYMENTS_CFT where col_status='NEW';
+```
 
 
 <br/>
