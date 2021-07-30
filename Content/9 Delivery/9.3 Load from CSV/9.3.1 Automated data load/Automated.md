@@ -1,6 +1,6 @@
 # 🚅 ЕЖЕДНЕВНАЯ АВТОМАТИЧЕСКАЯ ЗАГРУЗКА ДАННЫХ
 
-  Каждый день _(В 07:15 загружаются DWH, в 22:00 - 1С)_ автоматически производится загрузка данных о клиентах банка. За каждый из запусков отвечает соответствующий таск, созданный в **[`Task Scheduler`](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/9.3.3%20Task%20scheduler/TaskScheduler.md)**, который запускает **PowerShell скрипт** **`_LoadData.ps1`**.
+  Каждый день _(В 07:15 загружаются DWH, в 22:00 - 1С)_ автоматически производится загрузка данных о клиентах банка. За каждый из запусков отвечает соответствующий таск, созданный в **[`Task Scheduler`](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/9.3.3%20Task%20scheduler/TaskScheduler.md#-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D1%82%D0%B0%D1%81%D0%BA%D0%BE%D0%B2-%D0%B2-task-scheduler)**, который запускает **PowerShell скрипт** **`_LoadData.ps1`**.
 
   ![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/9.3.1%20Automated%20data%20load/IMG/1.png?raw=true)
 
@@ -62,4 +62,4 @@
 
 <br/>
 
-[go back](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/LoadCSV.md) | [back to topics](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/0%20Topics/Topics.md)
+[go back](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/LoadCSV.md#%EF%B8%8F-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81-%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85) | [back to topics](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/0%20Topics/Topics.md)

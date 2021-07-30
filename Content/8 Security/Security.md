@@ -15,7 +15,7 @@
 
 ![img2](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/8%20Security/IMG/2.png?raw=true)
 
-6. После проставления **_Permissions_** делаем [ДЕПЛОЙ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/Deploy.md)
+6. После проставления **_Permissions_** делаем [ДЕПЛОЙ](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/2%20Deploy/Deploy.md#%EF%B8%8F-%D0%B4%D0%B5%D0%BF%D0%BB%D0%BE%D0%B9)
 7. Далее переходим в раздел **`Manage Users`** => **`User Management`** => **`Groups`**
 
 ![img3](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/8%20Security/IMG/3.png?raw=true)
