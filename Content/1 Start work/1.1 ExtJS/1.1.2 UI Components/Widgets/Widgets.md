@@ -18,24 +18,24 @@
 
 Как и в случае с обычными компонентами, к элементам контейнера можно добавлять виджеты. Например, мы можем добавить спарклайн на панель инструментов:
 ```JavaScript
-    var panel = Ext.create({
-        xtype: 'panel',
-        title: 'Title',
-        frame: true,
-        renderTo: document.body,
-        width: 250,
-        height: 150,
-        html: 'Some text',
-        tbar: [{
-            text: 'Button'
-        }, '->', {
-            xtype: 'sparklineline',
-            fillColor: '#ddf',
-            width: 100,
-            height: 20,
-            values: [2, 3, 0, 4, -1]
-        }]
-    });
+  var panel = Ext.create({
+      xtype: 'panel',
+      title: 'Title',
+      frame: true,
+      renderTo: document.body,
+      width: 250,
+      height: 150,
+      html: 'Some text',
+      tbar: [{
+          text: 'Button'
+      }, '->', {
+          xtype: 'sparklineline',
+          fillColor: '#ddf',
+          width: 100,
+          height: 20,
+          values: [2, 3, 0, 4, -1]
+      }]
+  });
 ```
 
 ![img1](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/1%20Start%20work/1.1%20ExtJS/1.1.2%20UI%20Components/Widgets/IMG/1.png?raw=true)
@@ -52,40 +52,40 @@
 
 В следующем примере на гриде мы добавим столбц виджетов, который содержит виджет индикатора выполнения _(добавляется к каждой строке)_.
 ```JavaScript
-    var store = Ext.create('Ext.data.Store', {
-        fields: ['name','progress'],
-        data: [
-            { name: 'Test 1', progress: 0.10 },
-            { name: 'Test 2', progress: 0.23 },
-            { name: 'Test 3', progress: 0.86 },
-            { name: 'Test 4', progress: 0.31 }
-        ]
-    });
+  var store = Ext.create('Ext.data.Store', {
+      fields: ['name','progress'],
+      data: [
+          { name: 'Test 1', progress: 0.10 },
+          { name: 'Test 2', progress: 0.23 },
+          { name: 'Test 3', progress: 0.86 },
+          { name: 'Test 4', progress: 0.31 }
+      ]
+  });
 
-    Ext.create({
-        xtype: 'grid',
-        title: 'Widget Column Demo',
-        store: store,
+  Ext.create({
+      xtype: 'grid',
+      title: 'Widget Column Demo',
+      store: store,
 
-        columns: [{
-            text: 'Test Number',
-            dataIndex: 'name',
-            width: 100
-        }, {
-            xtype: 'widgetcolumn',
-            text: 'Progress',
-            width: 120,
-            dataIndex: 'progress',
-            widget: {
-                xtype: 'progressbarwidget',
-                textTpl: '{value:percent}'
-            }
-        }],
+      columns: [{
+          text: 'Test Number',
+          dataIndex: 'name',
+          width: 100
+      }, {
+          xtype: 'widgetcolumn',
+          text: 'Progress',
+          width: 120,
+          dataIndex: 'progress',
+          widget: {
+              xtype: 'progressbarwidget',
+              textTpl: '{value:percent}'
+          }
+      }],
 
-        width: 220,
-        height: 250,
-        renderTo: document.body
-    });
+      width: 220,
+      height: 250,
+      renderTo: document.body
+  });
 ```
 
 Итог:

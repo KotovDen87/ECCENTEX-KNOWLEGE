@@ -15,7 +15,7 @@
   **`Stores`** могут быть созданы как часть определения **`ViewModel`**. Определения обрабатываются как привязки, что обеспечивает очень мощную динамическую функциональность.
 
   Важно убедиться, что вы называете ключи данных **viewModel** уникальным образом. Если данные не имеют однозначного имени, привязки и формулы могут получать информацию из непреднамеренного источника данных. Это относится к ключам в блоке данных **viewModel**, конфигурациях хранилищ и ссылок.
-  ```JavaScript
+```JavaScript
   var viewModel = new Ext.app.ViewModel({
       stores: {
           users: {
@@ -31,7 +31,7 @@
   });
   // Later on in our code, we set the date so that the store is created.
   viewModel.set('createdFilter', Ext.Date.subtract(new Date(), Ext.Date.DAY, 7));
-  ```
+```
 
 
 <br/>

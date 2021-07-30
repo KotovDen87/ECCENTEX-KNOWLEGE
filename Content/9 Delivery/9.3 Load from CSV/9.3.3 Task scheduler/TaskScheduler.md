@@ -39,7 +39,7 @@
 
 8. Открываем полученную **XML** в любом редакторе и в теге `Priority` _(line 43)_ меняем значение на **`4`**. Сохраняем.
 ```XML
-    <Priority>4</Priority>
+  <Priority>4</Priority>
 ```
   * Примеры актуальных XML:
     * для **[`DWH`](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.3%20Load%20from%20CSV/9.3.3%20Task%20scheduler/XML/EXP%20DWH%20Import%20PS.xml)**

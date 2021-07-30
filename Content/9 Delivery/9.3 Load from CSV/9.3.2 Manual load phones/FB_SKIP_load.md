@@ -4,28 +4,28 @@
 <details><summary><i><h7>click to see script!</h7></i></summary>
 
 ```PowerShell
-    # Setup parameters
-    $env:NLS_LANG = "RUSSIAN_RUSSIA.CL8MSWIN1251"
-    CHCP 1251
+  # Setup parameters
+  $env:NLS_LANG = "RUSSIAN_RUSSIA.CL8MSWIN1251"
+  CHCP 1251
 
-    # $USERNAME = USERNAME=ENV_QA
-    # $USERNAME = PWD=ENV_QA6
-    $USERNAME = "ENVIRONMENT"
-    $PSWRD = "ENVIRONMENT3"
-    $TNS = "EXPO"
+  # $USERNAME = USERNAME=ENV_QA
+  # $USERNAME = PWD=ENV_QA6
+  $USERNAME = "ENVIRONMENT"
+  $PSWRD = "ENVIRONMENT3"
+  $TNS = "EXPO"
 
-    # Path to the dir with script file
-    $ScriptFolder = "E:\DWH"
-    $ToLoad = "$ScriptFolder\toLoad"
-    $Log = "$ScriptFolder\log"
+  # Path to the dir with script file
+  $ScriptFolder = "E:\DWH"
+  $ToLoad = "$ScriptFolder\toLoad"
+  $Log = "$ScriptFolder\log"
 
-    # Start load data
-    # loads phones into DWH_PHONE_CFT fabrica
-    &sqlldr "$USERNAME/$PSWRD@$TNS" DATA="$toLoad\FB_PHONE.csv" LOG="$Log\FB_PHONE.log" BAD="$ScriptFolder\FB_PHONE.bad" CONTROL="$ScriptFolder\ctrlfiles\PHONE\ctrl_FAB_DWH_PHONE_CFT.ctl"
-    # loads phones into DWH_PHONE_CFT skip
-    &sqlldr "$USERNAME/$PSWRD@$TNS" DATA="$toLoad\SK_PHONE.csv" LOG="$Log\SK_PHONE.log" BAD="$ScriptFolder\SK_PHONE.bad" CONTROL="$ScriptFolder\ctrlfiles\PHONE\ctrl_SKIP_DWH_PHONE_CFT.ctl"
+  # Start load data
+  # loads phones into DWH_PHONE_CFT fabrica
+  &sqlldr "$USERNAME/$PSWRD@$TNS" DATA="$toLoad\FB_PHONE.csv" LOG="$Log\FB_PHONE.log" BAD="$ScriptFolder\FB_PHONE.bad" CONTROL="$ScriptFolder\ctrlfiles\PHONE\ctrl_FAB_DWH_PHONE_CFT.ctl"
+  # loads phones into DWH_PHONE_CFT skip
+  &sqlldr "$USERNAME/$PSWRD@$TNS" DATA="$toLoad\SK_PHONE.csv" LOG="$Log\SK_PHONE.log" BAD="$ScriptFolder\SK_PHONE.bad" CONTROL="$ScriptFolder\ctrlfiles\PHONE\ctrl_SKIP_DWH_PHONE_CFT.ctl"
 
-    exit
+  exit
 ```
 
 </details>
@@ -58,22 +58,22 @@
 7. После загрузки данных в ТМП-таблицу **DWH_PHONE_CFT** заходим в БД:
   * Смотрим все ли записи загружены
 ```SQL
-    SELECT count(1) FROM DWH_PHONE_CFT WHERE col_status='NEW';
+  SELECT count(1) FROM DWH_PHONE_CFT WHERE col_status='NEW';
 ```
 
   * Запускаем процедуру
 ```SQL
-    DECLARE
-      sErrorMessage VARCHAR(2000);
-    BEGIN
-      LOAD_DATA_FROM_DWH.LoadPhones('FULL_LOAD', sErrorMessage);
-    END;
+  DECLARE
+    sErrorMessage VARCHAR(2000);
+  BEGIN
+    LOAD_DATA_FROM_DWH.LoadPhones('FULL_LOAD', sErrorMessage);
+  END;
 ```
 
   * Запускаем SQL-запросы, для проверки. _(Если **все** данные успешно загружены COUNT = 0. Если нет, разбираемся почему не загружены)_
 ```SQL
-    SELECT count(1) FROM DWH_PHONE_CFT WHERE col_status='NEW';
-    SELECT count(1) FROM DWH_PHONE_CFT WHERE col_status='ERROR';
+  SELECT count(1) FROM DWH_PHONE_CFT WHERE col_status='NEW';
+  SELECT count(1) FROM DWH_PHONE_CFT WHERE col_status='ERROR';
 ```
 
 

@@ -14,29 +14,29 @@
 ### Панель базовой формы
 Вот как создать простую форму для сбора пользовательских данных:
 ```JavaScript
-    Ext.create('Ext.form.Panel', {
-        renderTo: document.body,
-        title: 'User Form',
-        height: 350,
-        width: 300,
-        bodyPadding: 10,
-        defaultType: 'textfield',
-        items: [
-            {
-                fieldLabel: 'First Name',
-                name: 'firstName'
-            },
-            {
-                fieldLabel: 'Last Name',
-                name: 'lastName'
-            },
-            {
-                xtype: 'datefield',
-                fieldLabel: 'Date of Birth',
-                name: 'birthDate'
-            }
-        ]
-    });
+  Ext.create('Ext.form.Panel', {
+      renderTo: document.body,
+      title: 'User Form',
+      height: 350,
+      width: 300,
+      bodyPadding: 10,
+      defaultType: 'textfield',
+      items: [
+          {
+              fieldLabel: 'First Name',
+              name: 'firstName'
+          },
+          {
+              fieldLabel: 'Last Name',
+              name: 'lastName'
+          },
+          {
+              xtype: 'datefield',
+              fieldLabel: 'Date of Birth',
+              name: 'birthDate'
+          }
+      ]
+  });
 ```
 
 Эта форма отображается в теле документа и имеет три поля - «Имя», «Фамилия» и «Дата рождения». Поля добавляются на панель формы с помощью конфигурации элементов.

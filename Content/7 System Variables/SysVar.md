@@ -17,13 +17,13 @@
 * В **JavaScript** вызывается следующим образом:
 
 ```JavaScript
-    Config.SYSTEM_VARIABLES.НАЗВАНИЕ_ПЕРЕМЕННОЙ
+  Config.SYSTEM_VARIABLES.НАЗВАНИЕ_ПЕРЕМЕННОЙ
 ```
 
 * В **SQL** вызывается следующим образом:
 
 ```SQL
-    UPPER(GET_CONFIG('НАЗВАНИЕ_ПЕРЕМЕННОЙ'));
+  UPPER(GET_CONFIG('НАЗВАНИЕ_ПЕРЕМЕННОЙ'));
 ```
 
 

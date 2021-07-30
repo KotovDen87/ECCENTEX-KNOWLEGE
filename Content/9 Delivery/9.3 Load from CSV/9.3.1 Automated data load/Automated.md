@@ -29,34 +29,34 @@
 
   * Понять какая из внутренних процедур пакета отработала _(при выполнение п.5)_ возможно, запустив **SQL** запрос:
 ```SQL
-    --1C load time
-    select * from TBL_ERRORS_LOAD_DWH where col_entity_id='-1' and col_error like '1C%' order by col_created desc;
+  --1C load time
+  select * from TBL_ERRORS_LOAD_DWH where col_entity_id='-1' and col_error like '1C%' order by col_created desc;
 
-    --DWH load time
-    select * from TBL_ERRORS_LOAD_DWH where col_entity_id='-1' and col_error like 'DWH%' order by col_created desc;
+  --DWH load time
+  select * from TBL_ERRORS_LOAD_DWH where col_entity_id='-1' and col_error like 'DWH%' order by col_created desc;
 ```
 
   * Проверить были ли ошибки при загрузке воможно, запустив данный **SQL** запрос:
 ```SQL
-     select * from TBL_ERRORS_LOAD_DWH where col_entity_id<>'-1' and col_error not like '%not found%' order by col_created desc
+    select * from TBL_ERRORS_LOAD_DWH where col_entity_id<>'-1' and col_error not like '%not found%' order by col_created desc
 ```
 
   * Посмотреть все ли записи загружены в **TMP таблицы** можно, запустив один из запросов:
 ```SQL
-    select count(1) from DWH_PERSON_CFT where col_status='NEW';
-    select count(1) from DWH_PHONE_CFT where col_status='NEW';
-    select count(1) from DWH_ADDRESS_CFT where col_status='NEW';
-    select count(1) from DWH_DEBT_STATIC_CFT where col_status='NEW';
-    select count(1) from DWH_DEBT_CFT where col_status='NEW';
-    select count(1) from DWH_ACCOUNT_DEBT_CFT where col_status='NEW';
-    select count(1) from DWH_ACCOUNT_REST_CFT where col_status='NEW';
-    select count(1) from DWH_DEBT_STRUCTURE_CFT where col_status='NEW';
-    select count(1) from DWH_INTEREST_RATE_CFT where col_status='NEW';
-    select count(1) from DWH_GUARANTEE_CFT where col_status='NEW';
-    select count(1) from DWH_PROPERTY_CFT where col_status='NEW';
-    select count(1) from DWH_PROPERTY_VALUE_CFT where col_status='NEW';
-    select count(1) from DWH_PROPERTY_PARAM_CFT where col_status='NEW';
-    select count(1) from DWH_DEBT_PAYMENTS_CFT where col_status='NEW';
+  select count(1) from DWH_PERSON_CFT where col_status='NEW';
+  select count(1) from DWH_PHONE_CFT where col_status='NEW';
+  select count(1) from DWH_ADDRESS_CFT where col_status='NEW';
+  select count(1) from DWH_DEBT_STATIC_CFT where col_status='NEW';
+  select count(1) from DWH_DEBT_CFT where col_status='NEW';
+  select count(1) from DWH_ACCOUNT_DEBT_CFT where col_status='NEW';
+  select count(1) from DWH_ACCOUNT_REST_CFT where col_status='NEW';
+  select count(1) from DWH_DEBT_STRUCTURE_CFT where col_status='NEW';
+  select count(1) from DWH_INTEREST_RATE_CFT where col_status='NEW';
+  select count(1) from DWH_GUARANTEE_CFT where col_status='NEW';
+  select count(1) from DWH_PROPERTY_CFT where col_status='NEW';
+  select count(1) from DWH_PROPERTY_VALUE_CFT where col_status='NEW';
+  select count(1) from DWH_PROPERTY_PARAM_CFT where col_status='NEW';
+  select count(1) from DWH_DEBT_PAYMENTS_CFT where col_status='NEW';
 ```
 
 

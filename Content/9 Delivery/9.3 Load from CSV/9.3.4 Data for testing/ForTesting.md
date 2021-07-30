@@ -10,26 +10,26 @@
 
 2. Переходим в каталог с скриптом `E:\DWH`
 ```PowerShell
-    > cd E:\DWH
+  > cd E:\DWH
 ```
 
 3. Запускаем скрипт `LoadData_QA.ps1` с нужным параметром
 ```PowerShell
-    # For the 1C archive
-    > ./LoadData_QA.ps1 '1C'
+  # For the 1C archive
+  > ./LoadData_QA.ps1 '1C'
 
-    # For the DWH archive
-    > ./LoadData_QA.ps1 'DWH'
+  # For the DWH archive
+  > ./LoadData_QA.ps1 'DWH'
 ```
 **_NOTE:_** _Для загрузки архива за конкретную дату, необходимо открыть скрипт в редакторе и в соответствующей строке задать маску:
   * `49` при загрузке **DWH**
   * `219` при загрузке **1C**
 ```PowerShell
-    # DEFAULT
-    $SearchMask = Get-Date -Format "yyyyMMdd"
+  # DEFAULT
+  $SearchMask = Get-Date -Format "yyyyMMdd"
 
-    # Format must be: yyyyMMdd
-    $SearchMask = "20210729"
+  # Format must be: yyyyMMdd
+  $SearchMask = "20210729"
 ```
 
 4. Ждем заверщения 😉

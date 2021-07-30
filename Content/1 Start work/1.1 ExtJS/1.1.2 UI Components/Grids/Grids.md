@@ -8,33 +8,33 @@
 
 Пример создания простой формы:
 ```JavaScript
-    Ext.create('Ext.grid.Panel', {
-        renderTo: document.body,
-        store: userStore,
-        width: 400,
-        height: 200,
-        title: 'Application Users',
-        columns: [
-            {
-                text: 'Name',
-                width: 100,
-                sortable: false,
-                hideable: false,
-                dataIndex: 'name'
-            },
-            {
-                text: 'Email Address',
-                width: 150,
-                dataIndex: 'email',
-                hidden: true
-            },
-            {
-                text: 'Phone Number',
-                flex: 1,
-                dataIndex: 'phone'
-            }
-        ]
-    });
+  Ext.create('Ext.grid.Panel', {
+      renderTo: document.body,
+      store: userStore,
+      width: 400,
+      height: 200,
+      title: 'Application Users',
+      columns: [
+          {
+              text: 'Name',
+              width: 100,
+              sortable: false,
+              hideable: false,
+              dataIndex: 'name'
+          },
+          {
+              text: 'Email Address',
+              width: 150,
+              dataIndex: 'email',
+              hidden: true
+          },
+          {
+              text: 'Phone Number',
+              flex: 1,
+              dataIndex: 'phone'
+          }
+      ]
+  });
 ```
 В данном примере мы создали **`Ext.grid.Panel`**, который отображает себя в элементе **body**. Мы также сказали панели **`Grid`** получать данные из **`userStore`**.
 Как видно из примера, у всех колонок есть свойство **`dataIndex`**, оно связывает поле из нашей модели со столбцом.
