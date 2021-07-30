@@ -70,9 +70,9 @@
 
 ![img11](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/9%20Delivery/9.2%20Full/IMG/11.png?raw=true)
 
-14. Производим [очистку КЭШа](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/11%20Clear%20cache/Cache.md)
+14. Производим [очистку КЭШа](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/11%20Clear%20cache/Cache.md#%EF%B8%8F-%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B0-ui-%D0%BA%D1%8D%D1%88%D0%B0)
 
 
 <br/>
 
-[back to topics](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/tree/main/Content/0%20Topics/Topics.md)
+[back to topics](https://github.com/CrappyCodeMaker/ECCENTEX-KNOWLEGE/blob/main/Content/0%20Topics/Topics.md#-topics)
