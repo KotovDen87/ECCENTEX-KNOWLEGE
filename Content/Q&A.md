@@ -394,7 +394,7 @@ const isPalindrome = string => str === str.split('').reverse().join('');
 
 </details>
 
-1. **Найти самое короткое слово?**
+2. **Найти самое короткое слово?**
 <details><summary><i><h7>click to expand!</h7></i></summary>
 
 ```JavaScript
@@ -421,7 +421,7 @@ const = findShort = string => string.split(' ').sort((a,b) => a.lenght - b.lengh
 
 </details>
 
-1. **Создать инициалы?**
+3. **Создать инициалы?**
 <details><summary><i><h7>click to expand!</h7></i></summary>
 
 ```JavaScript
@@ -450,7 +450,7 @@ const toInitials = name => name.split(' ').map(el => `${el.slice(0,1).toUpperCas
 
 </details>
 
-1. **Поиск минимального и максимального значения в массиве? _(вернуть надо массив. если в массиве 1 элемент вернуть нужно 2)_**
+4. **Поиск минимального и максимального значения в массиве? _(вернуть надо массив. если в массиве 1 элемент вернуть нужно 2)_**
 <details><summary><i><h7>click to expand!</h7></i></summary>
 
 ```JavaScript
@@ -478,7 +478,7 @@ const minMax = arr => [Math.min(...arr), Math.max(...arr)];
 
 </details>
 
-1. **Создать набор дубликатов символов строки?**
+5. **Создать набор дубликатов символов строки?**
 <details><summary><i><h7>click to expand!</h7></i></summary>
 
 ```JavaScript
